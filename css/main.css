@@ -72,4 +72,4 @@ nav { display: block; color: #fff9c4; font-weight: bold; padding-left: 4px; padd
 /* Footer styling */
 hr { width: 80%; margin: auto; border-top: 1px solid #fff9c4; padding: 0; }
 
-footer { position:absolute; bottom: 0; color: #fff9c4; text-align: center; height: 2em; width: 100%; }
+footer { color: #fff9c4; text-align: center; height: 2em; width: 100%; }

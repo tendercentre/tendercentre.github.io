@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Buy
-permalink: /buy/
+title: Bid
+permalink: /bid/
 ---
 
 If you find something you're interested in, please check the lot number with one of our friendly staff members.

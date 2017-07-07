@@ -23,7 +23,7 @@
             <p id="site-tagline">You deliver the goods, we deliver the customer!</p>
         </div>
 
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-center flex-wrap">
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
             </li>
@@ -42,23 +42,22 @@
         </ul>
     </header>
 
-    <hr />
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="content">
-            {{ content }}
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                {{ content }}
+                </div>
+            </div>
         </div>
-        <!-- /.content -->
     </div>
-    <!-- /.container -->
 
-    <footer class="footer">
-        <div class="container">
-            <hr />
-            <a href="mailto:hello@pmtc.com.au">Email</a> &bull;
-            <a href="https://facebook.com/tendercentre">Facebook</a> &bull;
-            <a href="https://twitter.com/_tendercentre">Twitter</a> &bull;
-            <a href="https://instagram.com/tendercentre">Instagram</a>
+    <footer class="footer justify-content-center">
+        <div class="d-flex justify-content-center flex-wrap">
+            <a class="nav-link" href="mailto:hello@pmtc.com.au">Email</a>
+            <a class="nav-link" href="https://facebook.com/tendercentre">Facebook</a>
+            <a class="nav-link" href="https://twitter.com/_tendercentre">Twitter</a>
+            <a class="nav-link" href="https://instagram.com/tendercentre">Instagram</a>
         </div>
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->

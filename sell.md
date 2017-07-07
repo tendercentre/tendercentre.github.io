@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Sell
-permalink: /sell/
+permalink: "/sell/"
+layout: default
 ---
 
 We receive new stock weekdays from 9am – 4pm.

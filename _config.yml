@@ -1,10 +1,18 @@
+---
 title: Port Macquarie Tender Centre
-locale: "en-AU"
 timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+locale: en-AU
 encoding: utf-8
 email: hello@pmtc.com.au
 description: You deliver the goods, we deilver the customer!
-baseurl: ""
-url: "pmtc.com.au"
+baseurl: ''
+url: pmtc.com.au
 markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md

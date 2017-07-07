@@ -2,8 +2,9 @@
 
 html { 
   background: #1c2833;
-  min-height: 100%; 
-  position: relative; 
+  min-height: 100%;
+  position: relative;
+  font-size: 1em;
   }
 
 body {
@@ -54,6 +55,7 @@ header {
   }
 
 #site-title {
+  margin-top: 1rem;
   margin-bottom: 0;
   }
 

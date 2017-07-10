@@ -1,12 +1,12 @@
 ---
 title: Bid
-permalink: "/bid/"
+permalink: /bid/
 layout: default
 ---
 
 If you find something you're interested in, please check the lot number with one of our friendly staff members.
 
-If you're happy to pay reserve price for it, plus the buyer’s premium (11% plus a $3.30 processing fee) you can take it on the spot (provided it has not already sold and is pending collection).
+If you're happy to pay reserve price for it, plus the buyer's premium (11% plus a $3.30 processing fee) you can take it on the spot (provided it has not already sold and is pending collection).
 
 If you want to offer less than reserve price on something, you will need to place a bid.
 

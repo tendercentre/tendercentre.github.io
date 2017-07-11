@@ -3,9 +3,7 @@ title: Port Macquarie Tender Centre
 layout: default
 ---
 
-This website is currently under construction.
-
-In the meantime [please go to our old website.](https://pmtc.xyz)
+This website is currently under construction. In the meantime [please go to our old website.](https://pmtc.xyz)
 
 You can also find our social media pages here:
 

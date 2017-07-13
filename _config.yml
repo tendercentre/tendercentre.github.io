@@ -13,8 +13,12 @@ encoding:     utf-8
 email:        hello@pmtc.com.au
 description:  You deliver the goods, we deilver the customer!
 baseurl:      ''
-url:          pmtc.com.au
+url:          https://pmtc.com.au
 markdown:     kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 gems:
 - jekyll-email-protect
+- jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock

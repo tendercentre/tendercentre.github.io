@@ -6,7 +6,6 @@ collections:
     title: Posts
     output: true
   uploads:
-<<<<<<< HEAD
     title:    Uploads
     output:   true
 locale:       en-AU
@@ -16,17 +15,6 @@ description:  You deliver the goods, we deilver the customer!
 baseurl:      ''
 url:          https://pmtc.com.au
 markdown:     kramdown
-=======
-    title: Uploads
-    output: true
-locale: en-AU
-encoding: utf-8
-email: hello@pmtc.com.au
-description: You deliver the goods, we deilver the customer!
-baseurl: ''
-url: pmtc.com.au
-markdown: kramdown
->>>>>>> origin/master
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 gems:
 - jekyll-email-protect

@@ -1,6 +1,6 @@
 ---
 title: Sell
-permalink: /sell/
+permalink: "/sell/"
 layout: default
 ---
 

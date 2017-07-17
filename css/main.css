@@ -22,10 +22,12 @@ body {
 
 a {
   color: #fff9c4;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #fff9c4;
+  color: #fff171;
+  text-decoration: none;
 }
 
 

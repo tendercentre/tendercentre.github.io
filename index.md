@@ -3,9 +3,7 @@ title: Home
 layout: default
 ---
 
-This website is currently under construction.
-
-In the meantime [please go to our old website.](https://pmtc.xyz)
+This website is currently under construction. In the meantime [please go to our old website.](https://pmtc.xyz)
 
 You can also find our social media pages here:
 
@@ -15,4 +13,7 @@ You can also find our social media pages here:
 
 - [Instagram](https://instagram.com/tendercentre)
 
-Or you can also [click here](mailto\:{{ 'hello@pmtc.com.au' | encode_email }}) to reach us via email.
+Or you can reach us via email by [clicking here.](mailto:{{ 'hello@pmtc.com.au' | encode_email }})
+
+<div id="instagram">
+</div>

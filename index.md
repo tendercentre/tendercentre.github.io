@@ -14,6 +14,3 @@ You can also find our social media pages here:
 - [Instagram](https://instagram.com/tendercentre)
 
 Or you can reach us via email by [clicking here.](mailto:{{ 'hello@pmtc.com.au' | encode_email }})
-
-<div id="instagram">
-</div>

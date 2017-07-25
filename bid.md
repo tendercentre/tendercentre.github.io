@@ -4,11 +4,11 @@ permalink: /bid/
 layout: default
 ---
 
-# Instore Bidding
+### Instore Bidding
 
 You can bid instore by
 
-# Online Bidding
+### Online Bidding
 
 [Click here to bid online](/online-bid)
 

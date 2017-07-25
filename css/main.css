@@ -1,35 +1,40 @@
-  html {
+html {
     position: relative;
     min-height: 100%;
-  }
+}
 
-  body {
+body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-  }
+}
 
-  body>.container {
+body>.container {
     padding: 60px 15px 0;
-  }
+}
 
-  .navbar-brand {
+.navbar-brand {
     font-family: 'Oswald';
     text-transform: uppercase;
     color: #fff9c4 !important;
-  }
+}
 
-  .content {
+.content {
     margin-top: 1em;
     margin-bottom: 1em;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald';
     text-transform: uppercase;
     color: #1c2833 !important;
-  }
+}
 
-  .footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -39,13 +44,18 @@
     /* Vertically center the text there */
     color: #fff9c4 !important;
     background-color: #1c2833 !important;
-  }
+}
 
-  .footer>.container {
+.footer>.container {
     padding-right: 15px;
     padding-left: 15px;
-  }
+}
 
-  .footer>.container>a {
+.footer>.container>a {
     color: #fff9c4;
-  }
+    font-weight: bold;
+}
+
+.footer>.container>a:hover {
+    color: #fff171;
+}

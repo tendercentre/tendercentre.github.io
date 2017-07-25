@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+  <title>{{ page.title }}</title>
+
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet" />
+
+  <!-- PMTC CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+  <!-- Links -->
+  <link rel="canonical" href="pmtc.com.au/" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/img/manifest.json">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#1c2833">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Port Macquarie Tender Centre">
+  <meta name="application-name" content="Port Macquarie Tender Centre">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#1c2833">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar navbar-inverse bg-inverse navbar-toggleable-md bd-navbar" style="background-color: #1c2833 !important;">
+    <nav class="container">
+      <div class="d-flex justify-content-between hidden-lg-up">
+        <a class="navbar-brand" href="/">
+          <img src="/img/apple-touch-icon.png" width="30" height="30" alt="Port Macquarie Tender Centre">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bd-main-nav">
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-item nav-link site-title" href="/">
+  Port&nbsp;Macquarie&nbsp;Tender&nbsp;Centre
+  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/bid/">Bid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/sell/">Sell</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-item nav-link" href="/catalogue.pdf">Catalogue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="content">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer justify-content-center font-weight-bold">
+    <div class="d-flex justify-content-center flex-wrap">
+      <a class="nav-link" href="mailto:{{ 'hello@pmtc.com.au' | encode_email }}">Email</a>
+      <a class="nav-link" href="https://facebook.com/tendercentre">Facebook</a>
+      <a class="nav-link" href="https://twitter.com/_tendercentre">Twitter</a>
+      <a class="nav-link" href="https://instagram.com/tendercentre">Instagram</a>
+    </div>
+  </footer>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

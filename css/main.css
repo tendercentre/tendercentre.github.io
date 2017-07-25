@@ -1,56 +1,51 @@
-html {
-  min-height: 100%;
-  position: relative;
-}
+  html {
+    position: relative;
+    min-height: 100%;
+  }
 
-body {
-  background: #1c2833;
-  color: #eaf2f8;
-  margin-bottom: 2em;
-}
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
 
-#site-title {
-  font-family: 'Oswald', sans-serif;
-}
+  body>.container {
+    padding: 60px 15px 0;
+  }
 
-.nav {
-  max-width: 450px;
-  margin: auto;
-  border-top: 2px solid #fff9c4;
-  border-bottom: 2px solid #fff9c4;
-}
+  .navbar-brand {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #fff9c4 !important;
+  }
 
-a {
-  color: #fff9c4;
-  font-weight: bold;
-}
+  .content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 
-a:hover {
-  color: #fff171;
-  text-decoration: none;
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #1c2833 !important;
+  }
 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    color: #fff9c4 !important;
+    background-color: #1c2833 !important;
+  }
 
-/* Stop line width going past 66 character */
+  .footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 
-.row {
-  margin: auto;
-  max-width: 1600px;
-}
-
-.content {
-  margin-top: 1em;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-footer div {
-  max-width: 450px;
-  border-top: 2px solid #fff9c4;
-  border-bottom: 2px solid #fff9c4;
-  margin: auto;
-}
+  .footer>.container>a {
+    color: #fff9c4;
+  }

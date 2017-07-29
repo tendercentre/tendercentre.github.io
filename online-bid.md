@@ -4,24 +4,49 @@ permalink: /online-bid/
 layout: default
 ---
 
+## Please note
+Online this form is still under construcion. In the meantime, you can still submit a bid at https://pmtc.xyz/bid
+
 ### Online Bid
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta leo at nisl fringilla scelerisque. Vivamus tristique diam in quam gravida, et rutrum mauris imperdiet. Proin non pretium leo, in tempus magna. Nullam non elit libero. Mauris purus elit, viverra et blandit eu, mattis ut metus. Aenean quis nisi nulla. Fusce tristique elit eget lorem bibendum rhoncus. Morbi id lacus eget odio lacinia laoreet. Cras mattis enim id tincidunt sollicitudin. Suspendisse potenti. Suspendisse placerat id lacus et pellentesque. Curabitur mattis lacus sed diam sollicitudin, at efficitur nunc facilisis. Integer arcu nibh, vulputate eu nulla sed, tempor condimentum leo.
+To submit an online bid, please fill in the form below:
 
-In ac tellus ex. Maecenas sollicitudin vel tortor eget rutrum. Donec ac magna rhoncus, accumsan nisi quis, scelerisque arcu. Aliquam erat volutpat. Donec non velit ut nulla euismod tincidunt. Nullam tempus posuere ullamcorper. Suspendisse potenti. In hac habitasse platea dictumst. Duis magna velit, facilisis sit amet odio eu, fringilla malesuada ex. Phasellus dapibus felis sed enim facilisis, a faucibus sapien finibus. Donec congue bibendum tellus, sed pulvinar risus viverra at. Aliquam posuere purus ultricies, scelerisque libero eget, mollis turpis. Maecenas posuere nunc non tristique blandit. Quisque non ultrices tortor. Aenean egestas purus eu nisl sollicitudin, in sodales augue scelerisque.
-
-Phasellus volutpat rhoncus elit, et condimentum turpis consectetur sit amet. Vestibulum a molestie tellus, nec lobortis ipsum. In rhoncus molestie lorem sit amet auctor. Mauris vel velit placerat ex malesuada tincidunt id vel metus. Sed fringilla purus interdum, condimentum diam in, aliquam urna. Cras a mauris interdum, cursus orci eget, venenatis mauris. Curabitur orci sem, mollis ut vulputate eu, posuere ac mauris. Mauris dapibus, erat nec ornare hendrerit, lorem odio tempor erat, ac imperdiet mi sapien sed arcu. Praesent vel aliquet elit. Nulla non dolor tellus. Nullam semper nisl quis orci eleifend iaculis. Donec placerat luctus orci, at imperdiet libero.
-
-Quisque interdum massa ultricies lectus dictum ultrices. Phasellus tristique, ante eu egestas fringilla, sem sapien malesuada nibh, ac aliquet elit lectus eu nibh. Curabitur eget ligula et urna ornare sodales. Nam id est sapien. Praesent metus lectus, suscipit vel turpis nec, elementum cursus lorem. Integer iaculis urna eget condimentum condimentum. Aenean lacinia dolor in turpis convallis venenatis. Nulla vehicula libero sit amet ligula fringilla maximus. Fusce congue nibh sodales orci posuere, venenatis venenatis mauris malesuada. In sit amet mollis mauris. Donec nisl quam, vestibulum in elit nec, efficitur volutpat nisi. Ut eu erat justo. Nulla pulvinar commodo erat, at porta enim euismod at. Nullam feugiat purus in dolor pharetra sagittis.
-
-Aenean finibus erat porttitor sem pretium dapibus. Curabitur eu sodales purus. Vestibulum porttitor suscipit nibh nec faucibus. Donec efficitur dolor ut diam cursus, sit amet suscipit nulla tristique. Donec lobortis urna non interdum cursus. Nam mattis condimentum ex quis malesuada. Morbi dignissim eros vel eros egestas aliquet. Curabitur vitae aliquet sem. Mauris commodo, ante ut euismod consectetur, lectus eros pretium lorem, vel pharetra eros velit feugiat felis. Proin ut dolor vel eros lobortis luctus. Etiam facilisis lobortis nulla vitae auctor. Sed dictum blandit turpis eu volutpat. Vivamus ac augue id metus tempor blandit et vitae justo.
-
-Ut non euismod tellus. Nam eu fringilla magna, in sagittis est. Curabitur iaculis erat a feugiat egestas. Curabitur id nibh est. Aenean sed purus ipsum. Integer ut nibh in enim maximus vehicula. Donec sed suscipit diam, in pellentesque urna. In suscipit erat enim, molestie cursus elit ultrices vel. Ut tincidunt, diam in ultrices feugiat, justo massa sodales felis, rutrum pellentesque ligula nunc id quam. Donec vel nunc sem.
-
-Vestibulum dictum arcu quis pharetra interdum. Curabitur viverra volutpat nulla, non gravida nulla rhoncus sed. Sed vel vehicula odio. Pellentesque volutpat metus neque, id dapibus elit ultricies non. Aenean bibendum augue arcu, sit amet congue justo posuere id. Maecenas semper bibendum egestas. Aliquam blandit elit eu tortor finibus, a accumsan nisl condimentum. Proin sollicitudin massa vel tellus congue, non dapibus ipsum posuere. Duis mattis mauris eu ante consectetur pulvinar. Pellentesque ut viverra est, a aliquam justo. Aenean consequat, lorem eget faucibus rutrum, lorem nisi malesuada ante, mattis cursus orci neque a tortor. Phasellus nulla nunc, posuere bibendum vulputate a, malesuada vel nibh.
-
-Praesent blandit nibh ultrices, sollicitudin arcu in, tincidunt risus. Mauris tincidunt tellus id fermentum mattis. Praesent luctus placerat diam, ac aliquet lorem interdum quis. Morbi ut vulputate nisl. Phasellus congue mi diam, sit amet eleifend mauris auctor ut. Quisque gravida id eros vitae finibus. Curabitur sit amet turpis euismod, porttitor purus id, pharetra enim. Duis nec sagittis massa. Donec cursus tellus tincidunt vestibulum volutpat. Aliquam luctus porttitor mi, nec finibus odio rhoncus ut. In augue odio, vehicula eget leo sed, tristique tempus est. Praesent suscipit turpis lacus, non vulputate eros dignissim ac. Fusce placerat sapien euismod, porttitor leo ut, sagittis turpis.
-
-Sed non sem scelerisque, sollicitudin justo quis, suscipit metus. Donec volutpat et ligula ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque consectetur maximus erat at mollis. Nulla eu quam ut diam molestie semper in nec lorem. Pellentesque lacinia sem ut lectus condimentum, id dignissim odio dapibus. Cras sollicitudin nisi vitae arcu mollis, quis vestibulum ante tempor. Nullam vehicula ante massa, nec bibendum sem ornare vel. Aliquam ac auctor nisi. Proin molestie venenatis feugiat. Praesent posuere odio lectus. Mauris metus ligula, feugiat sagittis eros nec, dictum laoreet dolor. Curabitur malesuada dui felis, at lobortis enim scelerisque in. Vivamus vestibulum, leo a mattis euismod, metus ex bibendum nisl, at tincidunt nibh mauris vel nisi. Quisque ornare lacinia elit, nec scelerisque tellus volutpat et.
-
-Aliquam nec arcu ac enim condimentum malesuada eget eget est. Suspendisse suscipit nisi non orci sodales, eget tempus ante tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas sapien ipsum, vehicula at elit sit amet, bibendum commodo lectus. Phasellus ornare porttitor est at congue. Nulla nisl ante, facilisis vel malesuada facilisis, lobortis in ipsum. Maecenas lobortis odio scelerisque augue bibendum, ac dictum nisl porttitor. Fusce pulvinar aliquet blandit. Proin euismod tempus pulvinar. Aenean massa sem, sodales eu facilisis vitae, suscipit ut mauris. Cras porttitor sit amet ante eu ultrices. Donec gravida vitae purus quis venenatis. Nunc eu nulla diam. Fusce tincidunt bibendum tortor, in maximus ante egestas nec. Morbi tristique diam id nisi tempus, eu rutrum libero condimentum. Sed tristique nibh a consequat porttitor.
+<form action="https://formspree.io/admin@pmtc.xyz" method="POST">
+  <div class="form-group">
+    <h4>Contact Information</h4>
+    <label for="fullName">Full name</label>
+    <input type="text" class="form-control col-md-5" placeholder="Homer Simpson">
+  </div>
+  <div class="form-group">
+    <label for="address">Residential Address</label>
+    <input type="text" class="form-control col-md-5" placeholder="742 Evergreen Terrace">
+  </div>
+  <div class="form-group">
+    <label for="suburb">Suburb</label>
+    <input type="text" class="form-control col-md-5" placeholder="Springfield">
+  </div>
+  <div class="form-group">
+    <label for="phoneNumber">Phone number</label>
+    <input type="text" class="form-control col-md-5" placeholder="555 7334">
+  </div>
+<div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" name="_replyto" class="form-control col-md-5" placeholder="chunkylover53@aol.com">
+  </div>
+  <h4>Item description</h4>
+  <div class="form-group">
+    <label for="lotNumber">Lot Number</label>
+    <input type="text" class="form-control col-md-5" placeholder="12345">
+  </div>
+  <div class="form-group">
+    <label for="lotDescription">Lot Description</label>
+    <input type="text" class="form-control col-md-5" placeholder="Tom Landry's hat">
+  </div>
+  <div class="form-group">
+    <label for="bidPrice">Bid price</label>
+    <input type="text" class="form-control col-md-5" placeholder="$1,000,000">
+    <input type="submit" class="btn btn-success" value="Send">
+    <input type="hidden" name="_next" value="/success/" />
+    <input type="hidden" name="_subject" value="Online bid" />
+  </div>
+</form>

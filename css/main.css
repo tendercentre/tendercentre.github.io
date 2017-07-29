@@ -25,10 +25,7 @@ body>.container {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: 'Oswald';
     text-transform: uppercase;
     color: #1c2833 !important;

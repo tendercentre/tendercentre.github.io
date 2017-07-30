@@ -1,6 +1,6 @@
 ---
 title: Online Bid
-permalink: /online-bid/
+permalink: "/online-bid/"
 layout: default
 ---
 

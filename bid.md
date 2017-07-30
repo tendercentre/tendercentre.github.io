@@ -1,6 +1,6 @@
 ---
 title: Bid
-permalink: /bid/
+permalink: "/bid/"
 layout: default
 ---
 

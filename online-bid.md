@@ -1,6 +1,6 @@
 ---
 title: Online Bid
-permalink: /online-bid/
+permalink: "/online-bid/"
 layout: default
 ---
 
@@ -27,7 +27,7 @@ To submit an online bid, please fill in the form below:
   </div>
   <div class="form-group">
     <label for="phoneNumber">Phone number</label>
-    <input type="text" name="phone" class="form-control col-md-5" placeholder="555 7334">
+    <input type="tel" name="phone" class="form-control col-md-5" placeholder="555 7334">
   </div>
   <div class="form-group">
     <label for="email">Email address</label>

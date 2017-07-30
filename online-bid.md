@@ -11,7 +11,7 @@ Online this form is still under construcion. In the meantime, you can still subm
 
 To submit an online bid, please fill in the form below:
 
-<form name="online-bid" action="/success/" netlify>
+<form name="online-bid" action="https://formspree.io/admin@pmtc.xyz" method="POST">
   <div class="form-group">
     <h4>Contact Information</h4>
     <label for="fullName">Full name</label>

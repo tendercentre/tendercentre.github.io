@@ -11,7 +11,7 @@ Online this form is still under construcion. In the meantime, you can still subm
 
 To submit an online bid, please fill in the form below:
 
-<form action="https://formspree.io/admin@pmtc.xyz" method="POST">
+<form name="online-bid" action="/success/" netlify>
   <div class="form-group">
     <h4>Contact Information</h4>
     <label for="fullName">Full name</label>
@@ -29,7 +29,7 @@ To submit an online bid, please fill in the form below:
     <label for="phoneNumber">Phone number</label>
     <input type="text" class="form-control col-md-5" placeholder="555 7334">
   </div>
-<div class="form-group">
+  <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" name="_replyto" class="form-control col-md-5" placeholder="chunkylover53@aol.com">
   </div>

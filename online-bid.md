@@ -31,7 +31,7 @@ To submit an online bid, please fill in the form below:
   </div>
   <div class="form-group">
     <label for="email">Email address</label>
-    <input type="email" name="_replyto" class="form-control col-md-5" placeholder="chunkylover53@aol.com">
+    <input type="email" class="form-control col-md-5" placeholder="chunkylover53@aol.com">
   </div>
   <h4>Item description</h4>
   <div class="form-group">

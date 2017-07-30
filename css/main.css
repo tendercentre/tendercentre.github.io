@@ -43,16 +43,3 @@ h3 {
     background-color: #1c2833 !important;
 }
 
-.footer>.container {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.footer>.container>a {
-    color: #fff9c4;
-    font-weight: bold;
-}
-
-.footer>.container>a:hover {
-    color: #fff171;
-}

@@ -36,7 +36,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse" style="background-color: #1c2833 !important;">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" style="background-color: #1c2833 !important;">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
             aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -71,13 +71,21 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <a href="mailto:{{ 'hello@pmtc.com.au' | encode_email }}">Email</a>
-            <a href="https://facebook.com/tendercentre">Facebook</a>
-            <a href="https://twitter.com/_tendercentre">Twitter</a>
-            <a href="https://instagram.com/tendercentre">Instagram</a>
-        </div>
+    <footer class="footer navbar navbar-toggleable-md navbar-inverse bg-inverse" style="background-color: #1c2833 !important;">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:{{ 'hello@pmtc.com.au' | encode_email }}">Email</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://facebook.com/tendercentre">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/_tendercentre">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://instagram.com/tendercentre">Instagram</a>
+                </li>
+            </ul>
     </footer>
 
     <!-- Bootstrap core JavaScript

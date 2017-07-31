@@ -43,3 +43,8 @@ h3 {
     background-color: #1c2833 !important;
 }
 
+.lightwidget-widget {
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+}

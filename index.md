@@ -15,5 +15,5 @@ You can also find our social media pages here:
 
 Or you can reach us via email by [clicking here.](mailto:{{ 'hello@pmtc.com.au' | encode_email }})
 
-<!-- LightWidget for Instagram -->
-<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5908e6a3840451d8b0b8b94e99e9712f.html" scrolling="no" allowtransparency="true" class="lightwidget-widget col-md-8"></iframe>
+ <!-- LightWidget for Instagram 
+<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5908e6a3840451d8b0b8b94e99e9712f.html" scrolling="no" allowtransparency="true" class="lightwidget-widget col-md-8"></iframe> -->

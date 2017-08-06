@@ -5,48 +5,67 @@ layout: default
 ---
 
 ## Please note
-Online this form is still under construcion. In the meantime, you can still submit a bid at https://pmtc.xyz/bid
+Online this form is still under construcion. In the meantime, you can still submit a bid at **[our old website](https://pmtc.xyz/bid)**
 
 ### Online bid
 
 To submit an online bid, please fill in the form below:
 
 <form name="online-bid" action="https://formspree.io/admin@pmtc.xyz" method="POST">
-  <div class="form-group">
-    <h4>Contact Information</h4>
-    <label for="fullName">Full name</label>
-    <input type="text" name="full-name" class="form-control col-md-5" placeholder="Homer Simpson">
-  </div>
-  <div class="form-group">
-    <label for="address">Residential Address</label>
-    <input type="text" name="address" class="form-control col-md-5" placeholder="742 Evergreen Terrace">
-  </div>
-  <div class="form-group">
-    <label for="suburb">Suburb</label>
-    <input type="text" name="suburb" class="form-control col-md-5" placeholder="Springfield">
-  </div>
-  <div class="form-group">
-    <label for="phoneNumber">Phone number</label>
-    <input type="tel" name="phone" class="form-control col-md-5" placeholder="555 7334">
-  </div>
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" name="_replyto" class="form-control col-md-5" placeholder="chunkylover53@aol.com">
-  </div>
-  <h4>Item description</h4>
-  <div class="form-group">
-    <label for="lotNumber">Lot Number</label>
-    <input type="text" name="lot-no" class="form-control col-md-5" placeholder="12345">
-  </div>
-  <div class="form-group">
-    <label for="lotDescription">Lot Description</label>
-    <input type="text" name="description" class="form-control col-md-5" placeholder="Tom Landry's hat">
-  </div>
-  <div class="form-group">
-    <label for="bidPrice">Bid price</label>
-    <input type="text" name="bid=price" class="form-control col-md-5" placeholder="$1,000,000">
-    <input type="submit" class="btn btn-success" value="Send">
-    <input type="hidden" name="_next" value="/success/" />
-    <input type="hidden" name="_subject" value="Online bid" />
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-2">
+      <h4>Contact Information</h4>
+      <div class="form-group">
+        <label for="fullName">Full name</label>
+        <input type="text" name="full-name" class="form-control col-md-5 col-lg-8" placeholder="Homer Simpson">
+      </div>
+
+      <div class="form-group">
+        <label for="address">Residential Address</label>
+        <input type="text" name="address" class="form-control col-md-5 col-lg-8" placeholder="742 Evergreen Terrace">
+      </div>
+
+      <div class="form-group">
+        <label for="suburb">Suburb</label>
+        <input type="text" name="suburb" class="form-control col-md-5 col-lg-8" placeholder="Springfield">
+      </div>
+
+      <div class="form-group">
+        <label for="phoneNumber">Phone number</label>
+        <input type="tel" name="phone" class="form-control col-md-5 col-lg-8" placeholder="555 7334">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" name="_replyto" class="form-control col-md-5 col-lg-8" placeholder="chunkylover53@aol.com">
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <h4>Item description</h4>
+
+      <div class="form-group">
+        <label for="lotNumber">Lot Number</label>
+        <input type="text" name="lot-no" class="form-control col-md-5 col-lg-8" placeholder="12345">
+      </div>
+
+      <div class="form-group">
+        <label for="lotDescription">Lot Description</label>
+        <input type="text" name="description" class="form-control col-md-5 col-lg-8" placeholder="Tom Landry's hat">
+      </div>
+
+      <p>Bid price</p>
+      <div class="input-group">
+        <label for="bidPrice" class="sr-only">Bid price</label>
+        <span class="input-group-addon">$</span>
+        <input type="text" name="bid-price" class="form-control col-md-5" placeholder="$1,000,000">
+        <span class="input-group-addon">.00</span>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+
+      <input type="hidden" name="_next" value="/success/" />
+      <input type="hidden" name="_subject" value="Online bid" />
+    </div>
   </div>
 </form>

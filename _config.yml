@@ -1,61 +1,42 @@
-# Site settings
+---
 title: Port Macquarie Tender Centre
+timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: hello@pmtc.com.au
 url: https://www.pmtc.com.au
-description: "You deliver the goods, we deilver the customer!"
-keywords: "buy, sell, secondhand, second-hand, port macquarie, furniture, tools"
-timezone: Australia/Sydney
+description: You deliver the goods, we deilver the customer!
+keywords: buy, sell, secondhand, second-hand, port macquarie, furniture, tools
 locale: en-AU
 encoding: utf-8
-# Google webmaster tools
-# google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-# disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
+  primary: 18bc9c
+  primary-rgb: '24,288,156'
+  secondary: 2c3e50
+  secondary-dark: 233140
 footer:
   copyright: Port Macquarie Tender Centre
   location: Location
   social: Around the Web
   credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/_tendercentre
-  - title: facebook
-    url: https://facebook.com/tendercentre
-  - title: instagram
-    url: https://instagram.com/tendercentre
-
-
-# Postal address (add as many lines as necessary)
+- title: twitter
+  url: https://twitter.com/_tendercentre
+- title: facebook
+  url: https://facebook.com/tendercentre
+- title: instagram
+  url: https://instagram.com/tendercentre
 address:
-  - line: 14-17/35 Merrigal Road
-  - line: Port Macquarie, NSW 2444
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
+- line: 14-17/35 Merrigal Road
+- line: Port Macquarie, NSW 2444
+credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start
+  Bootstrap</a>.
 markdown: kramdown
 highlighter: rouge
 markdown_ext: markdown,mkdown,mkdn,mkd,md

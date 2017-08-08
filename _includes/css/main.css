@@ -18,6 +18,10 @@ body>.container {
   padding: 60px 15px 0;
 }
 
+#bootstrap-override body nav {
+  background: #1c2833;
+}
+
 .navbar-brand {
   font-family: 'Oswald';
   text-transform: uppercase;

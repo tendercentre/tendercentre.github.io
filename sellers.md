@@ -1,8 +1,8 @@
---- 
-title: Sellers 
-permalink: "/sellers/" 
-layout: default 
---- 
+---
+title: Sellers
+permalink: "/sellers/"
+layout: default
+---
 
 ## Sellers 
 

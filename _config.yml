@@ -15,11 +15,11 @@ keywords: buy, sell, secondhand, second-hand, port macquarie, furniture, tools
 locale: en-AU
 encoding: utf-8
 contact: static
-color:
-  primary: 18bc9c
-  primary-rgb: '24,288,156'
-  secondary: 2c3e50
-  secondary-dark: 233140
+# color:
+#   primary: 18bc9c
+#   primary-rgb: '24,288,156'
+#   secondary: 2c3e50
+#   secondary-dark: 233140
 footer:
   copyright: Port Macquarie Tender Centre
   location: Location
@@ -35,8 +35,6 @@ social:
 address:
 - line: 14-17/35 Merrigal Road
 - line: Port Macquarie, NSW 2444
-credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start
-  Bootstrap</a>.
 markdown: kramdown
 highlighter: rouge
 markdown_ext: markdown,mkdown,mkdn,mkd,md

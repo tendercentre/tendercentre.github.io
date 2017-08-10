@@ -1,12 +1,6 @@
 ---
 title: Port Macquarie Tender Centre
-description: You deliver the goods, we deilver the customer!
-url: https://www.pmtc.com.au
-email: hello@pmtc.com.au
-encoding: utf-8
-locale: en-AU
 timezone: Australia/Sydney
-keywords: buy, sell, secondhand, second-hand, port macquarie, furniture, tools
 collections:
   posts:
     title: Posts
@@ -14,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+description: You deliver the goods, we deilver the customer!
+url: https://www.pmtc.com.au
+email: hello@pmtc.com.au
+encoding: utf-8
+locale: en-AU
+keywords: buy, sell, secondhand, second-hand, port macquarie, furniture, tools
 contact: static
 footer:
   copyright: Port Macquarie Tender Centre

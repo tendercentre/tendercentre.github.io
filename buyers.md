@@ -28,4 +28,4 @@ All successful bids do incur a buyers premium and a $3.30 per lot processing fee
 
 Found something you like and want to make an online bid?
 
-<a class="btn btn-primary" href="/online-bid/" role="button">Bid Now!</a>
+<a class="btn btn-primary" href="/online-bid/" role="button">Bid now!</a>

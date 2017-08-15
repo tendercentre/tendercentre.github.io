@@ -1,31 +1,33 @@
-    <head>
-      
-      <!-- Meta -->
-      <meta charset="utf-8" />
-      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-      <meta name="description" content="{{ site.description }}" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <meta name="keywords" content="{{ site.keywords }}" />
-      <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-
-      <!-- Bootstrap & PMTC CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-      <link rel="stylesheet" href="{{ "/style.css" }}" />
-
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-      <!-- Favicons -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-      <link rel="manifest" href="/img/manifest.json">
-      <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#1c2833">
-      <link rel="shortcut icon" href="/img/favicon.ico">
-      <meta name="apple-mobile-web-app-title" content="Port Macquarie Tender Centre">
-      <meta name="application-name" content="Port Macquarie Tender Centre">
-      <meta name="msapplication-config" content="/img/browserconfig.xml">
-      <meta name="theme-color" content="#1c2833">
-
-    </head>
+<head>
+  
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous" />
+  
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ " /style.css " }}" />
+  
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet" />
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+    <link rel="manifest" href="/img/manifest.json" />
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#1c2833" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="Port Macquarie Tender Centre" />
+    <meta name="application-name" content="Port Macquarie Tender Centre" />
+    <meta name="msapplication-config" content="/img/browserconfig.xml" />
+    <meta name="theme-color" content="#1c2833" />
+  
+  </head>

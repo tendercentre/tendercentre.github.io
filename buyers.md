@@ -24,7 +24,9 @@ Here are some of the things we frequently have for sale:
 
 All successful bids do incur a buyers premium and a $3.30 per lot processing fee. For more information, please ask our staff or call us on (02)&nbsp;6581&nbsp;3122.
 
-### Online Bidding
+---
+
+## Online Bidding
 
 Found something you like and want to make an online bid?
 

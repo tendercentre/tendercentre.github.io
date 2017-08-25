@@ -6,8 +6,18 @@ layout: default
 
 ## Contact
 
-Phone: (02) 6581 3122
+#### Phone: 
 
-Email: [Click here](mailto:{{ 'hello@pmtc.com.au' | encode_email }})
+{% include telephone.html %}
+
+#### Email: 
+
+[Click here](mailto:{{ 'hello@pmtc.com.au' | encode_email }})
+
+#### Address: 
+
+14-17/35 Merrigal Road
+
+Port Macquarie, NSW, 2444
 
 {% include location.html %}

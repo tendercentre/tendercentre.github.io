@@ -1,194 +1,100 @@
-/* Dark blue: #2c3e50, darker blue: #233140, pale yellow: #fff9c4 */
-/* HTML tags */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    padding-top: 3.5rem;
 }
 
-h1 {
-  font-family: 'Oswald';
+h1,
+h2 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #38434D;
 }
 
 ::selection {
-  color: #38434D;
-  background-color: #fff9c4;
+    color: #38434D;
+    background-color: #fff9c4;
 }
 
-
-/* Page header */
-
-.page-header {
-  color: #fff;
-  background-color: #233140;
-  text-align: center;
+.btn {
+    color: #fff;
+    background-color: #233140;
+    border-color: #233140;
 }
 
-@media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem 1rem;
-  }
+.btn:hover {
+    color: #fff;
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem 1rem;
-  }
+#nav {
+    color: #fff;
+    background-color: #233140;
 }
 
-@media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem 1rem;
-  }
+#navbar-brand {
+    font-family:
 }
 
-
-/* PMTC*/
-
-.pmtc {
-  font-family: 'Oswald', sans-serif;
-  color: #fff9c4;
-  margin-top: 0;
+#pmtc {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #fff9c4;
+    margin-top: 0;
 }
 
-@media screen and (min-width: 64em) {
-  .pmtc {
-    font-size: 3.25rem;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #38434D;
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .pmtc {
-    font-size: 2.25rem;
-  }
+.jumbo-paragraph {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
 }
 
-@media screen and (max-width: 42em) {
-  .pmtc {
-    font-size: 1.75rem;
-  }
+.container {
+    margin-top: 1rem;
 }
 
-.pmtc:hover {
-  text-decoration: none;
-  color: #fff9c4;
+.jumbotron {
+    margin-top: -1rem;
 }
-
-
-/* PMTC tagline */
-
-.pmtc-tagline {
-  margin-bottom: 2rem;
-  opacity: 0.7;
-}
-
-@media screen and (min-width: 64em) {
-  .pmtc-tagline {
-    font-size: 1.25rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .pmtc-tagline {
-    font-size: 1.15rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .pmtc-tagline {
-    font-size: 1rem;
-  }
-}
-
-
-/* Nav links */
-
-.nav-link {
-  color: #fff9c4;
-}
-
-.nav-link:hover {
-  color: #fff9c4;
-}
-
-@media screen and (min-width: 64em) {
-  .nav-link {
-    font-size: 1.25rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .nav-link {
-    font-size: 1.15rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .nav-link {
-    font-size: 1rem;
-  }
-}
-
-/* Main content */
-
-.main-content :first-child {
-  margin-top: 0;
-}
-
-@media screen and (min-width: 64em) {
-  .main-content {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .main-content {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .main-content {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
-}
-
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
-  color: #38434D;
-}
-
-.main-content p {
-  margin-bottom: 1em;
-}
-
-
-/* Footer */
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px;
-  /* Vertically center the text there */
-  color: #fff9c4;
-  background-color: #1c2833;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    color: #fff9c4;
+    background-color: #1c2833;
+}
+
+@media only screen and (max-width: 640px) {
+    .copyright {
+        display: none;
+    }
+    .jumbotron .container h1 {
+        font-size: 3rem;
+    }
 }

@@ -3,9 +3,13 @@
     <!-- Meta -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="You deliver the goods, we deilver the customer!" />
-    <link rel="canonical" href="http://localhost:4000/" />
-    <title>Home</title>
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <meta name="google-site-verification" content="iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+    <!-- Title -->
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
@@ -15,7 +19,7 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:600" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" />
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />

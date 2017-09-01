@@ -14,18 +14,19 @@ body {
 }
 
 h1,
-h2 {
-    font-family: 'Oswald';
-    text-transform: uppercase;
-}
-
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     color: #38434D;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 ::selection {
@@ -52,16 +53,6 @@ h6 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #fff9c4;
-    margin-top: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #38434D;
 }
 
 .jumbo-paragraph {
@@ -70,12 +61,8 @@ h6 {
     margin: 0;
 }
 
-.jumbotron {
-    margin-top: -1rem;
-}
-
 .col-lg-4 {
-    margin-bottom: 1rem;
+    margin-bottom: 3.5rem;
 }
 
 .footer {
@@ -94,7 +81,20 @@ h6 {
     .copyright {
         display: none;
     }
-    .jumbotron .container h1 {
-        font-size: 3rem;
+    .site-branding {
+        font-size: 2.5rem;
+    }
+    .jumbo-paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .hide-xs {
+        display: none;
+    }
+    .jumbotron {
+        padding-left: 0;
+        padding-right: 0;
     }
 }

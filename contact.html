@@ -1,0 +1,20 @@
+---
+title: Contact
+permalink: "/contact/"
+layout: default
+---
+
+<div class="row">
+    <div class="col-lg-3">
+        <h2>Contact</h2>
+        <h4>Phone:</h4>
+        {% include telephone.html %}
+        <h4>Email:</h4>
+        <p><a href="mailto:{{ 'hello@pmtc.com.au' | encode_email }}">Click here</a></p>
+        <h4>Address:</h4>
+        <p>14-17/35 Merrigal&nbsp;Road, Port&nbsp;Macquarie, NSW, 2444</p>
+    </div>
+    <div class="col-lg-9">
+            {% include location.html %}
+    </div>
+</div>

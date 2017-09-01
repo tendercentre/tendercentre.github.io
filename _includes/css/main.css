@@ -70,12 +70,12 @@ h6 {
     margin: 0;
 }
 
-.container {
-    margin-top: 1rem;
-}
-
 .jumbotron {
     margin-top: -1rem;
+}
+
+.col-lg-4 {
+    margin-bottom: 1rem;
 }
 
 .footer {
@@ -90,7 +90,7 @@ h6 {
     background-color: #1c2833;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
     .copyright {
         display: none;
     }

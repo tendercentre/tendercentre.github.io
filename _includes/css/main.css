@@ -30,18 +30,30 @@ h2 {
     text-transform: uppercase;
 }
 
+ol > li {
+    font-weight: 700;
+}
+
+li > * {
+    font-weight: 400;
+}
+
+#exampleModalLongTitle {
+    padding-left: 1em;
+}
+
 ::selection {
     color: #fff9c4;
     background-color: #38434D;
 }
 
-.btn {
+.btn-dark {
     color: #fff;
     background-color: #233140;
     border-color: #233140;
 }
 
-.btn:hover {
+.btn-dark:hover {
     color: #fff;
 }
 

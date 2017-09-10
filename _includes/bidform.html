@@ -49,9 +49,17 @@
                 <span class="input-group-addon">.00</span>
             </div>
 
+            <p class="text-muted">(Buyer's premium of 11% + $3.30 is added to this offer for successful bids)</p>
+
             <input type="hidden" name="_next" value="/success/" />
             <input type="hidden" name="_subject" value="Online bid" />
+
         </div>
     </div>
-    <button type="submit" class="btn btn-dark">Submit</button>
+
+    <hr>
+    
+    <p>Please review and agree to the Terms &amp; Conditions to submit a bid</p>
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong"> Terms &amp; Conditions</button>
+    {% include modal-terms.html %}
 </form>

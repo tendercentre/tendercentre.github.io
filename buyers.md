@@ -6,7 +6,7 @@ layout: default
 
 ## Buyers information
 
-Port Macquarie Tender Centre receive hundreds of new items every single week! We don’t know what will come in either so its one of the exciting components of the tendering process for everyone that bids.
+Port Macquarie Tender Centre receive hundreds of new items every single week! We don’t know what will come in either so it's one of the exciting components of the tendering process for everyone that bids.
 
 Here are some of the things we frequently have for sale:
 

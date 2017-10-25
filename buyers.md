@@ -22,7 +22,7 @@ Here are some of the things we frequently have for sale:
 * Jewellery & clothing
 * Musical instruments
 
-All successful bids do incur a buyers premium (11% of the sale price) and a $3.30 per lot processing fee. For more information, please ask our staff or call us on (02)&nbsp;6581&nbsp;3122.
+All successful bids do incur a buyers premium (11% of the sale price) and a $3.30 per lot processing fee. For more information, please ask our staff or call us on {% include telephone.html %}
 
 ---
 

@@ -10,19 +10,19 @@ Port Macquarie Tender Centre receive hundreds of new items every single week! We
 
 Here are some of the things we frequently have for sale:
 
-* Antiques and Oldwares
-* Collectables and hobbies
-* Tools and Hardware
-* Furniture and homeware
+* Antiques & oldwares
+* Collectables & hobbies
+* Tools & Hardware
+* Furniture & homeware
 * Sports
-* Camping and outdoors
-* Plants and gardening
-* Automotive and marine
+* Camping & outdoors
+* Plants & gardening
+* Automotive & marine
 * TV, audio & electronics
-* Jewellery and clothing
+* Jewellery & clothing
 * Musical instruments
 
-All successful bids do incur a buyers premium and a $3.30 per lot processing fee. For more information, please ask our staff or call us on (02)&nbsp;6581&nbsp;3122.
+All successful bids do incur a buyers premium (11% of the sale price) and a $3.30 per lot processing fee. For more information, please ask our staff or call us on (02)&nbsp;6581&nbsp;3122.
 
 ---
 

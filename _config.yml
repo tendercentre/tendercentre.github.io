@@ -22,7 +22,6 @@ markdown: kramdown
 highlighter: rouge
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 permalink: pretty
-theme: minima
 plugins:
 - jekyll-email-protect
 - jekyll-sitemap

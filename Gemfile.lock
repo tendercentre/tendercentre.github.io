@@ -55,7 +55,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll
   jekyll-email-protect
   jekyll-sitemap
   tzinfo-data

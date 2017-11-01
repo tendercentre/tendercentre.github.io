@@ -1,24 +1,19 @@
 <head>
 
-    <!-- Meta -->
+    <!-- Set character encoding for the document -->
     <meta charset="utf-8" />
+
+    <!-- Instruct Internet Explorer to use its latest rendering engine -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Viewport for responsive web design -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="{{ site.description }}" />
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <meta name="google-site-verification" content="iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4" />
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
-    <!-- Title -->
+
+    <!-- Document Title -->
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous" />
-
-    <!-- Custom styles for PMTC -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" />
+    <!-- Meta Description -->
+    <meta name="description" content="{{ site.description }}" />
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -31,5 +26,24 @@
     <meta name="application-name" content="Port Macquarie Tender Centre" />
     <meta name="msapplication-config" content="/img/browserconfig.xml" />
     <meta name="theme-color" content="#1c2833" />
+
+    <!-- Helps prevent duplicate content issues -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+
+    <!-- DNS prefetch -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous" />
+
+    <!-- Custom styles for PMTC -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" />
 
 </head>

@@ -22,6 +22,9 @@ markdown: kramdown
 highlighter: rouge
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 permalink: pretty
+sass:
+    sass_dir: _sass
+    style: compressed
 plugins:
 - jekyll-email-protect
 - jekyll-sitemap

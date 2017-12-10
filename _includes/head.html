@@ -3,20 +3,14 @@
 <!-- Set character encoding for the document -->
 <meta charset="utf-8" />
 
-<!-- Jekyll SEO Tag -->
-{% seo %}
-
 <!-- Instruct Internet Explorer to use its latest rendering engine -->
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
 <!-- Viewport for responsive web design -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<!-- Document Title -->
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-<!-- Meta Description -->
-<meta name="description" content="{{ site.description }}" />
+<!-- Jekyll SEO Tag -->
+{% seo %}
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
@@ -29,9 +23,6 @@
 <meta name="application-name" content="Port Macquarie Tender Centre" />
 <meta name="msapplication-config" content="/img/browserconfig.xml" />
 <meta name="theme-color" content="#1c2833" />
-
-<!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 
 <!-- Google site verification -->
 <meta name="google-site-verification" content="iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4" />

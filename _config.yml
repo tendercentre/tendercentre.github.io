@@ -15,7 +15,7 @@ address:
 - line: Port Macquarie, NSW 2444
 encoding: utf-8
 locale: en-AU
-baseurl: ''
+baseurl: 
 url: https://www.pmtc.com.au
 twitter_username: _tendercentre
 markdown: kramdown

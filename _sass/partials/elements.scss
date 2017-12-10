@@ -1,0 +1,72 @@
+// BASE ELEMENTS
+// -------------
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    margin-bottom: 3.5rem;
+    color: $colour--darkest-gray;
+    background: $colour--white;
+    font-family: $font-family--sans-serif;
+    @include antialias;
+}
+
+a {
+    color: tint($colour--primary, 10%);
+    font-weight: $font-weight--bold;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: tint($colour--primary, 50%);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $font-weight--bold;
+    color: tint($colour--primary, 10%);
+}
+
+h1,
+h2 {
+    font-family: $font-family--display;
+    text-transform: uppercase;
+}
+
+ol {
+    li {
+        font-weight: $font-weight--bold;
+        * {
+            font-weight: $font-weight--normal;
+        }
+    }
+}
+
+strong,
+b {
+    font-weight: $font-weight--bold !important;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+small {
+    font-size: $font-size--small;
+}
+
+img {
+    @include responsive-image;
+}
+
+::selection {
+    color: $colour--light-yellow;
+    background-color: tint($colour--primary, 25%);
+}

@@ -1,0 +1,20 @@
+// NAV
+// ---
+nav {
+    background-color: $colour--primary;
+    font-weight: $font-weight--bold;
+}
+
+#nav-link {
+	color: $colour--gray;
+	&:hover {
+		color: tint($colour--gray, 50%);
+	}
+}
+
+#pmtc {
+    text-transform: uppercase;
+    font-family: $font-family--display;
+    font-weight: $font-weight--bold;
+    color: $colour--light-yellow;
+}

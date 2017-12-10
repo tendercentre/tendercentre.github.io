@@ -1,0 +1,27 @@
+// TYPOGRAPHY
+// ----------
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700);
+
+$font-size--html:           20px;
+$font-size--html-sm:        18px;
+
+$font-size--large:          1.166667em;
+$font-size--small:          0.916667em;
+$font-size--smaller:        0.833333em;
+
+
+$font-family--display:   	"Oswald", sans-serif;
+$font-family--sans-serif:   "Roboto", sans-serif;
+$font-family--monospace:    monospace;
+
+$font-weight--normal:       400;
+$font-weight--medium:       500;
+$font-weight--bold:         700;
+
+$line-height--tighter:      1.16;
+$line-height--tight:        1.24;
+$line-height--base:         1.6;
+
+$letter-spacing--tighter:   -0.027em;
+$letter-spacing--tight:     -0.018em;

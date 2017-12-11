@@ -1,12 +1,21 @@
 // BASE ELEMENTS
 // -------------
-html {
-    position: relative;
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
     height: 100%;
+    position: relative;
 }
 
 body {
-    margin-bottom: 3.5rem;
     color: $colour--darkest-gray;
     background: $colour--white;
     font-family: $font-family--sans-serif;

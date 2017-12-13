@@ -1,5 +1,5 @@
 ---
-title: Online Bid
+title: Online bid
 permalink: "/bid/"
 layout: default
 ---

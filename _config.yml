@@ -1,6 +1,20 @@
 ---
 title: Port Macquarie Tender Centre
+email: hello@pmtc.com.au
+twitter_username: _tendercentre
+description: You deliver the goods, we deilver the customer!
+baseurl: ""
+url: "https://www.pmtc.com.au"
+
 timezone: Australia/Sydney
+
+markdown: kramdown
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+highlighter: rouge
+
+permalink: pretty
+
 collections:
   posts:
     title: Posts
@@ -8,33 +22,22 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: hello@pmtc.com.au
-description: You deliver the goods, we deilver the customer!
-address:
-- line: 14-17/35 Merrigal Road
-- line: Port Macquarie, NSW 2444
-encoding: utf-8
-locale: en-AU
-baseurl: 
-url: https://www.pmtc.com.au
-twitter_username: _tendercentre
-markdown: kramdown
-highlighter: rouge
-markdown_ext: markdown,mkdown,mkdn,mkd,md
-permalink: pretty
+
 sass:
   sass_dir: _sass
   style: compressed
-plugins:
-- jekyll-email-protect
-- jekyll-sitemap
-- jekyll-seo-tag
+
 exclude:
-- ".gitignore"
-- CNAME
-- Gemfile
-- Gemfile.lock
-- LICENSE
-- README.*
-- vendor
-- node_modules
+  - ".gitignore"
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.*
+  - vendor
+  - node_modules
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-sitemap
+  - jekyll-seo-tag

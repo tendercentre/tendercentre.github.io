@@ -75,6 +75,10 @@ img {
     @include responsive-image;
 }
 
+hr {
+    padding-bottom: 1rem;
+}
+
 ::selection {
     color: $colour--light-yellow;
     background-color: tint($colour--primary, 25%);

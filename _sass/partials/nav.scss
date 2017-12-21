@@ -6,9 +6,9 @@ nav {
 }
 
 #nav-link {
-	color: $colour--gray;
+	color: tint($colour--primary, 75%);
 	&:hover {
-		color: tint($colour--gray, 50%);
+		color: tint($colour--primary, 100%);
 	}
 }
 

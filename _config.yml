@@ -1,12 +1,6 @@
 ---
 title: Port Macquarie Tender Centre
 timezone: Australia/Sydney
-lang: en_AU
-description: You deliver the goods, we deilver the customer!
-baseurl: ''
-url: https://www.pmtc.com.au
-logo: /img/apple-touch-icon.png
-google_site_verification: iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4
 collections:
   posts:
     title: Posts
@@ -14,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+lang: en_AU
+description: You deliver the goods, we deilver the customer!
+baseurl: ''
+url: https://www.pmtc.com.au
+logo: "/img/apple-touch-icon.png"
+google_site_verification: iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4
 email: hello@pmtc.com.au
 twitter:
   username: _tendercentre

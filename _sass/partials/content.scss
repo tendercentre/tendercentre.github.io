@@ -49,3 +49,23 @@
 p.card-text {
   margin-bottom: 0;
 }
+
+p {
+    a {
+        color: tint($colour--primary, 25%)
+    }
+}
+
+address {
+    a {
+        color: tint($colour--primary, 25%)
+    }
+}
+
+.main--map {
+    padding: 4px;
+}
+
+.main--photos {
+    padding: 2px;
+}

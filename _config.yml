@@ -8,11 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: hello@pmtc.com.au
-twitter_username: _tendercentre
+lang: en_AU
 description: You deliver the goods, we deilver the customer!
 baseurl: ''
 url: https://www.pmtc.com.au
+logo: "/img/apple-touch-icon.png"
+google_site_verification: iXb5Sz5oiviaDDdXK4XLslgGBSfzahNlJjdPvaMYCG4
+email: hello@pmtc.com.au
+twitter:
+  username: _tendercentre
+facebook:
+  publisher: https://www.facebook.com/TenderCentre/
 markdown: kramdown
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 highlighter: rouge

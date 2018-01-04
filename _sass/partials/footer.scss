@@ -1,29 +1,33 @@
 // FOOTER
-// ------
+
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 1em 2em;
+  @include clearfix;
+
+  background-color: $colour--lightest-gray;
+  bottom: 0;
+  color: $colour--darker-gray;
+  font-weight: $font-weight--medium;
+  padding: 1em 2em;
+  position: absolute;
+  width: 100%;
+
+  a {
     color: $colour--darker-gray;
-    background-color: $colour--lightest-gray;
-    font-weight: $font-weight--medium;
-    @include clearfix;
-    a {
-        color: $colour--darker-gray;
-        &:hover {
-            color: tint($colour--darker-gray, 50%);
-        }
+
+    &:hover {
+      color: tint($colour--darker-gray, 50%);
     }
+  }
 }
 
 .footer--social {
-    float: left;
+  float: left;
 }
 
 .footer--copyright {
-    float: right;
-    p {
-        margin: 0;
-    }
+  float: right;
+
+  p {
+    margin: 0;
+  }
 }

@@ -1,35 +1,37 @@
 // BASE ELEMENTS
-// -------------
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*:before,
-*:after {
-    box-sizing: border-box;
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-html,
+body,
+html {
+  height: 100%;
+  position: relative;
+}
+
 body {
-    height: 100%;
-    position: relative;
-}
+  @include antialias;
 
-body {
-    color: $colour--darkest-gray;
-    background: $colour--white;
-    font-family: $font-family--sans-serif;
-    @include antialias;
+  background: $colour--white;
+  color: $colour--darkest-gray;
+  font-family: $font-family--sans-serif;
 }
 
 a {
-    color: tint($colour--primary, 10%);
-    font-weight: $font-weight--bold;
+  color: tint($colour--primary, 10%);
+  font-weight: $font-weight--bold;
+  text-decoration: none;
+
+  &:hover {
+    color: tint($colour--primary, 50%);
     text-decoration: none;
-    &:hover {
-        text-decoration: none;
-        color: tint($colour--primary, 50%);
-    }
+  }
 }
 
 h1,
@@ -38,48 +40,49 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: $font-weight--bold;
-    color: tint($colour--primary, 10%);
+  color: tint($colour--primary, 10%);
+  font-weight: $font-weight--bold;
 }
 
 h1,
 h2 {
-    font-family: $font-family--display;
-    text-transform: uppercase;
+  font-family: $font-family--display;
+  text-transform: uppercase;
 }
 
 ol {
-    li {
-        font-weight: $font-weight--bold;
-        * {
-            font-weight: $font-weight--normal;
-        }
+  li {
+    font-weight: $font-weight--bold;
+
+    * {
+      font-weight: $font-weight--normal;
     }
+  }
 }
 
-strong,
-b {
-    font-weight: $font-weight--bold !important;
+b,
+strong {
+  font-weight: $font-weight--bold;
 }
 
 em,
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 small {
-    font-size: $font-size--small;
+  font-size: $font-size--small;
 }
 
 img {
-    @include responsive-image;
+  @include responsive-image;
 }
 
 hr {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 ::selection {
-    color: $colour--light-yellow;
-    background-color: tint($colour--primary, 25%);
+  background-color: tint($colour--primary, 25%);
+  color: $colour--light-yellow;
 }

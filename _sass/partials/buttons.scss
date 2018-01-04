@@ -1,13 +1,14 @@
 // BUTTONS
-// -------
+
 .btn-dark {
-	color: $colour--lightest-gray;
-	background-color: $colour--white;
-    background-color: tint($colour--primary, 10%);
-    &:hover {
-        background-color: tint($colour--primary, 20%);
-    }
-    &:visited {
-        color: $colour--lightest-gray;
-    }
+  background-color: tint($colour--primary, 10%);
+  color: $colour--lightest-gray;
+
+  &:hover {
+    background-color: tint($colour--primary, 20%);
+  }
+
+  &:visited {
+    color: $colour--lightest-gray;
+  }
 }

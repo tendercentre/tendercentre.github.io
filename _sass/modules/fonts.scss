@@ -2,55 +2,44 @@
 
 // Oswald Latin
 @font-face {
-  font-family: "Oswald";
+  font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
-  src: local("Oswald Bold"), local("Oswald-Bold"),
-    url(https://fonts.gstatic.com/s/oswald/v16/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2)
-      format("woff2");
-  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
-    U+02dc, U+2000-206f, U+2074, U+20ac, U+2122, U+2212, U+2215;
+  src: local('Oswald Bold'), local('Oswald-Bold') format('woff2'),
+  url('/fonts/oswald/oswald-v16-latin-700.woff2') format('woff'),
+  url('/fonts/oswald/oswald-v16-latin-700.woff');
 }
 
 
 //Roboto Latin
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src:  url('/fonts/roboto/roboto-v18-latin-regular.woff2') format('woff2'),
+        url('/fonts/roboto/roboto-v18-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
   font-style: italic;
-  font-weight: 400;
-  src: local("Roboto Italic"), local("Roboto-Italic"),
-    url(https://fonts.gstatic.com/s/roboto/v18/vPcynSL0qHq_6dX7lKVByXYhjbSpvc47ee6xR_80Hnw.woff2)
-      format("woff2");
-  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
-    U+02dc, U+2000-206f, U+2074, U+20ac, U+2122, U+2212, U+2215;
+  src:  url('/fonts/roboto/roboto-v18-latin-italic.woff2') format('woff2'),
+        url('/fonts/roboto/roboto-v18-latin-italic.woff') format('woff');
 }
+
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"),
-    url(https://fonts.gstatic.com/s/roboto/v18/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2)
-      format("woff2");
-  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
-    U+02dc, U+2000-206f, U+2074, U+20ac, U+2122, U+2212, U+2215;
-}
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: 'Roboto';
   font-weight: 500;
-  src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2)
-      format("woff2");
-  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
-    U+02dc, U+2000-206f, U+2074, U+20ac, U+2122, U+2212, U+2215;
-}
-@font-face {
-  font-family: "Roboto";
   font-style: normal;
+  src:  url('/fonts/roboto/roboto-v18-latin-500.woff2') format('woff2'),
+        url('/fonts/roboto/roboto-v18-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
   font-weight: 700;
-  src: local("Roboto Bold"), local("Roboto-Bold"),
-    url(https://fonts.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2)
-      format("woff2");
-  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02bb-02bc, U+02c6, U+02da,
-    U+02dc, U+2000-206f, U+2074, U+20ac, U+2122, U+2212, U+2215;
+  font-style: normal;
+  src:  url('/fonts/roboto/roboto-v18-latin-700.woff2') format('woff2'),
+        url('/fonts/roboto/roboto-v18-latin-700.woff') format('woff');
 }

@@ -1,0 +1,48 @@
+<nav>
+  <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+
+    <a class="nav-item nav-link active show" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+      aria-selected="true">Home</a>
+
+    <a class="nav-item nav-link" id="nav-buyers-tab" data-toggle="tab" href="#nav-buyers" role="tab" aria-controls="nav-buyers"
+      aria-selected="false">Buyers</a>
+
+    <a class="nav-item nav-link" id="nav-sellers-tab" data-toggle="tab" href="#nav-sellers" role="tab" aria-controls="nav-sellers"
+      aria-selected="false">Sellers</a>
+
+    <a class="nav-item nav-link" id="nav-faq-tab" data-toggle="tab" href="#nav-faq" role="tab" aria-controls="nav-faq" aria-selected="false">FAQ</a>
+
+    <a class="nav-item nav-link" id="nav-catalogue-tab" data-toggle="tab" href="#nav-catalogue" role="tab" aria-controls="nav-catalogue"
+      aria-selected="false">Catalogue</a>
+
+    <a class="nav-item nav-link" id="nav-bid-tab" data-toggle="tab" href="#nav-bid" role="tab" aria-controls="nav-bid" aria-selected="false">Online bid</a>
+
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+
+  <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    {% include nav/home.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-buyers" role="tabpanel" aria-labelledby="nav-buyers-tab">
+      {% include nav/buyers.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-sellers" role="tabpanel" aria-labelledby="nav-sellers-tab">
+      {% include nav/sellers.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-faq-tab">
+      {% include nav/faq.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-catalogue" role="tabpanel" aria-labelledby="nav-catalogue-tab">
+      {% include nav/catalogue.html %}
+  </div>
+
+  <div class="tab-pane fade" id="nav-bid" role="tabpanel" aria-labelledby="nav-bid-tab">
+      {% include nav/bid.html %}
+  </div>
+
+</div>

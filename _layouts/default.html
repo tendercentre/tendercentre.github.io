@@ -1,27 +1,23 @@
-<!-- Doctype HTML5 -->
-<!doctype html />
-
-<html lang="{{ site.lang | default: "en-AU" }}" dir="ltr">
+<!DOCTYPE html />
+<html lang="{{ site.lang | default: " en-AU " }}" dir="ltr">
 
 {% include head.html %}
 
 <body>
 
-<div class="wrapper">
+{% include header.html %}
 
-{% include nav.html %}
+<main>
 
-<main class="container content--main">
+<div class="bg-light container pb-3 rounded">
 
-{{ content }}
+{% include nav.html %} {{ content }}
+
+</div>
 
 </main>
 
-{% include footer.html %}
-
-{% include scripts.html %}
-
-</div>
+{% include footer.html %} {% include scripts.html %}
 
 </body>
 

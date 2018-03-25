@@ -1,22 +1,16 @@
 // COLOURS
-$colour--black:         #000000;
-$colour--white:         #FFFFFF;
-$colour--blue:          #11A0F3;
-$colour--green:         #25BEA1;
-$colour--yellow:        #FBBC09;
-$colour--red:           #E56134;
-$colour--purple:        #9961C9;
-$colour--leaf:          #8DCF3F;
-$colour--dark-blue:     #23313f;
-$colour--light-yellow:  #FEEEC2;
+$colour--black:         hsla(0, 0%, 0%, 1);
+$colour--white:         hsla(0, 0%, 100%, 1);
+$colour--dark-blue:     hsla(215, 35%, 25%, 1);
+$colour--light-yellow:  hsla(45, 95%, 90%, 1);
 
-$colour--darkest-grey:  #374252;
-$colour--darker-grey:   #5A6575;
-$colour--dark-grey:     #8C95A3;
-$colour--grey:          #B1B8C4;
-$colour--light-grey:    #D3D8E0;
-$colour--lighter-grey:  #E9ECF0;
-$colour--lightest-grey: #F7F8FA;
+$colour--darkest-grey:  hsla(215, 20%, 27%, 1);
+$colour--darker-grey:   hsla(215, 13%, 41%, 1);
+$colour--dark-grey:     hsla(215, 11%, 59%, 1);
+$colour--grey:          hsla(215, 14%, 73%, 1);
+$colour--light-grey:    hsla(215, 17%, 85%, 1);
+$colour--lighter-grey:  hsla(215, 19%, 93%, 1);
+$colour--lightest-grey: hsla(215, 23%, 97%, 1);
 
 $colour--primary:         $colour--dark-blue;
 $colour--secondary:       $colour--light-yellow;

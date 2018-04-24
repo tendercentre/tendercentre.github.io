@@ -186,9 +186,9 @@ p {
 }
 
 .nav-item {
-  @apply .block .py-2 .px-4 .mb-8 .text-center .text-blue-lightest;
+  @apply .block .mt-2 .py-2 .px-4 .text-center .text-blue-lightest;
 } .nav-item:hover {
-  @apply .bg-blue-darker .border-b-8 .border-yellow-lighter .mb-0 .text-white;
+  @apply .bg-blue-darker .border-t-8 .border-yellow-lighter .mt-0 .text-white;
 }
 
 

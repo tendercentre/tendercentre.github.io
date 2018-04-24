@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500|Roboto:400,400i,500,900");
+/**
+* This injects Tailwind's base styles, which is a combination of
+* Normalize.css and some additional base styles.
+*
+* You can see the styles here:
+* https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+*
+* If using `postcss-import`, use this import instead:
+*
+* @import "tailwindcss/preflight";
+*/
+
+@tailwind preflight;
+/**
+* This injects any component classes registered by plugins.
+*
+* If using `postcss-import`, use this import instead:
+*
+* @import "tailwindcss/components";
+*/
+
+@tailwind components;
+/**
+* Here you would add any of your custom component classes; stuff that you'd
+* want loaded *before* the utilities so that the utilities could still
+* override them.
+*
+* Example:
+*
+* .btn { ... }
+* .form-input { ... }
+*
+* Or if using a preprocessor or `postcss-import`:
+*
+* @import "components/buttons";
+* @import "components/forms";
+*/
+
+:root {
+  font-family: "Roboto";
+  @apply .text-grey-darkest;
+}
+
+a {
+  @apply .font-black .no-underline .text-blue-dark;
+}
+
+body {
+  @apply .bg-blue-dark;
+  background: radial-gradient(
+    circle,
+    rgba(41, 64, 86, 1) 0%,
+    rgba(25, 39, 52, 1) 100%
+  );
+}
+
+h1,
+h2 {
+  font-family: "Oswald";
+  @apply .uppercase .text-blue-dark;
+}
+
+hr {
+  @apply .border-b .pt-1;
+}
+
+ol {
+  @apply .font-bold .text-blue-dark;
+}
+
+ol li p {
+  @apply .font-normal .text-grey-darkest;
+}
+
+p {
+  @apply .pb-2;
+}
+
+.btn {
+  @apply .border-b-8 .font-bold .my-0 .py-2 .px-4 .rounded .shadow .text-center;
+}
+.btn:active {
+  @apply .border-0 .mt-2;
+}
+
+.btn-dark {
+  @apply .bg-blue-dark .border-blue-darker .text-blue-lightest;
+}
+
+.btn-dark:hover {
+  @apply .bg-blue .text-white;
+}
+
+.card {
+  @apply .bg-white .border .border-b-8 .flex .flex-col .mb-6 .mx-3 .rounded .shadow .w-full;
+} @screen md {
+  .card {
+    @apply .m-0;
+  }
+}
+
+.card-container {
+  @apply .flex .flex-wrap .justify-center;
+} @screen md {
+  .card-container {
+    @apply .flex-no-wrap .mb-6;
+  }
+}
+
+.card-footer {
+  @apply .flex .pb-3 .px-3 .rounded-b;
+} @screen md {
+  .card-footer {
+    @apply .px-6 .py-3;
+  }
+}
+
+.card-title {
+  @apply .bg-grey-lightest .border-b .font-bold .px-6 .py-2 .rounded-t .text-blue-dark .text-center;
+}
+
+.embed {
+  @apply .border overflow-hidden .relative .rounded .w-full;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.embed iframe {
+  @apply .absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-column {
+  @apply .flex .flex-col .pb-4 w-full;
+}
+
+.form-input {
+  @apply .appearance-none .bg-white .block .border .rounded .shadow-inner .text-grey-darker .px-4 .py-3 .w-full;
+}
+
+.form-label {
+  @apply .block .font-bold .mb-1 .text-grey-darker;
+}
+
+.form-row {
+  @apply .flex .flex-wrap .mb-4;
+}
+
+.header-lead {
+  @apply .text-blue-lightest .italic;
+}
+
+.header-title {
+  @apply .text-4xl .text-yellow-lighter .uppercase .no-underline;
+}
+.header-title:hover {
+  @apply .text-yellow-lightest;
+}
+
+.invalid-feedback {
+  @apply .hidden .w-full .text-sm .text-red;
+}
+
+.jumbotron {
+  @apply .bg-blue-dark .border-blue-darkest .border-b-8 .flex .flex-col .font-bold .justify-center .px-4 .py-8 .shadow .text-center .text-2xl .text-white .w-full;
+  text-shadow: 0 1px 0 #293c56, 0 2px 0 #293c56, 0 3px 0 #293c56;
+  background: radial-gradient(
+      circle,
+      rgba(41, 64, 86, 0.7) 0%,
+      rgba(25, 39, 52, 1) 100%
+    ),
+    url("/img/hero.jpg");
+  background-size: cover;
+} @screen md {
+  .jumbotron {
+    @apply .h-64 .rounded .p-8 .text-3xl;
+  }
+}
+
+.lead {
+  @apply .py-2 .text-xl;
+}
+
+.nav-item {
+  @apply .block .py-2 .px-4 .mb-8 .text-center .text-blue-lightest;
+} .nav-item:hover {
+  @apply .bg-blue-darker .border-b-8 .border-yellow-lighter .mb-0 .text-white;
+}
+
+
+.social {
+  @apply .h-12 .w-12 .fill-current .text-blue-dark;
+} .social:hover {
+  @apply .text-blue;
+}
+
+/**
+* This injects all of Tailwind's utility classes, generated based on your
+* config file.
+*
+* If using `postcss-import`, use this import instead:
+*
+* @import "tailwindcss/utilities";
+*/
+
+@tailwind utilities;
+/**
+* Here you would add any custom utilities you need that don't come out of the
+* box with Tailwind.
+*
+* Example :
+*
+* .bg-pattern-graph-paper { ... }
+* .skew-45 { ... }
+*
+* Or if using a preprocessor or `postcss-import`:
+*
+* @import "utilities/background-patterns";
+* @import "utilities/skew-transforms";
+*/

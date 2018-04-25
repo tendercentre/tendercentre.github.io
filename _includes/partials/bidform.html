@@ -1,0 +1,128 @@
+<form class="bg-grey-lightest border mb-0 mx-auto rounded shadow w-full" name="bid-form" action="/success/" method="POST" netlify>
+  <div class="md:flex">
+
+    <!-- COLUMN 1 -->
+    <div class="p-3 pb-0 w-full md:w-1/2">
+
+      <!-- ROW: NAME -->
+      <div class="form-row">
+
+        <!-- FIRST NAME -->
+        <div class="form-column">
+          <label class="form-label" for="first-name">Name</label>
+          <input class="form-input mb-4" id="first-name" name="first-name" type="text" autofocus autocomplete="given-name" placeholder="Johnny">
+          <input class="form-input" id="last-name" name="last-name" type="text" autocomplete="family-name" placeholder="Appleseed">
+        </div>
+
+      </div>
+
+      <!-- ROW: ADDRESS -->
+      <div class="form-row">
+
+        <!-- ADDRESS -->
+        <div class="form-column">
+          <label class="form-label" for="address-line1">Address</label>
+          <input class="form-input mb-4" id="address-line1" name="address-line1" type="text" autocomplete="address-line1" placeholder="35 Merrigal Road">
+          <input class="form-input" type="text" autocomplete="address-line2" name="address-line2" placeholder="Port Macquarie NSW 2444">
+        </div>
+
+      </div>
+
+      <!-- ROW: PHONE -->
+      <div class="form-row">
+
+        <!-- PHONE NUMBER -->
+        <div class="form-column">
+          <label class="form-label" for="phone-number">Phone number</label>
+          <input class="form-input" id="phone-number" name="phone-number" type="text" autocomplete="tel" placeholder="0400 000 000">
+        </div>
+
+      </div>
+
+      <!-- ROW: EMAIL -->
+      <div class="form-row">
+
+        <!-- EMAIL ADDRESS -->
+        <div class="form-column">
+          <label class="form-label" for="email-address">Email address</label>
+          <input class="form-input" id="email-address" name="email-address" type="text" autocomplete="email" placeholder="your.name@example.com">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- COLUMN 2 -->
+    <div class="p-3 pb-0 w-full md:w-1/2">
+
+      <!-- ROW: BID INFORMATION -->
+      <div class="form-row">
+
+        <!-- LOT NUMBER -->
+        <div class="form-column">
+          <label class="form-label" for="lot-number">Lot number</label>
+          <input class="form-input" id="lot-number" name="lot-number" type="text" autocomplete="off" placeholder="10123">
+        </div>
+
+        <!-- LOT DESCRIPTION -->
+        <div class="form-column">
+          <label class="form-label" for="lot-description">Lot description</label>
+          <input class="form-input" id="lot-description" name="lot-description" type="text" autocomplete="off" placeholder="Acoustic guitar">
+        </div>
+
+        <!-- BID PRICE -->
+        <div class="form-column pb-1">
+          <label class="form-label" for="bid-price">Bid price</label>
+          <div class="bg-grey-lighter border flex items-center rounded">
+            <div class="flex-auto px-4 rounded-l">$</div>
+
+            <input class="border-l border-r flex-auto appearance-none bg-white block px-4 py-3 shadow-inner text-grey-darker w-full" id="bid-price" type="text" autocomplete="off" name="bid-price" placeholder="100">
+
+            <div class="flex-auto px-4 rounded-r">.00</div>
+
+          </div>
+          <small class="text-grey-darker">(A buyer's premium of 11% + $3.30 is added to this offer for successful bids.)</small>
+        </div>
+
+        <!-- MESSAGE AREA -->
+        <div class="form-column">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="border h-48 p-3 rounded shadow-inner text-grey-darker w-full" id="message" name="message" spellcheck placeholder="Optional — please leave blank unless you have a very good reason"></textarea>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- TERMS & CONDITIONS / SUBMIT BUTTON -->
+  <div class="p-3">
+    <div class="form-column pb-1">
+      <label class="form-label">
+        <h3>Terms &amp; Conditions</h3>
+      </label>
+      <div class="bg-white border h-64 overflow-y-scroll pt-3 pr-3 rounded shadow-inner overflow-y-scroll terms text-sm">
+        {% include partials/terms.html %}
+      </div>
+    </div>
+
+    <!-- CHECKBOX -->
+    <div class="w-full">
+      <input name="agree" type="checkbox" value="agree">
+      <label class="px-1">I agree to the <strong class="text-grey-darker">Terms &amp; Conditions</strong></label>
+    </div>
+
+    <!-- HONEYPOT -->
+    <div class="hidden">
+      <label>Don’t fill this out if you're human:</label>
+      <input name="bot-field">
+    </div>
+
+    <!-- SUBMIT BUTTON -->
+    <div class="mt-2 max-w-sm mx-auto text-xl">
+      <button class="btn btn-dark w-full" name="signup" type="submit" value="Sign up">Submit bid</button>
+    </div>
+
+  </div>
+
+</form>

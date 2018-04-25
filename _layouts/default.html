@@ -1,28 +1,30 @@
-<!-- Doctype HTML5 -->
-<!doctype html />
+---
+---
 
-<html lang="{{ site.lang | default: "en-AU" }}" dir="ltr">
-
+<!DOCTYPE html />
+<html class="h-full no-js" lang="{{ site.lang | default: " en-AU " }}" dir="ltr">
 {% include head.html %}
-
-<body>
-
-<div class="wrapper">
-
+<body class="antialiased flex flex-col h-full leading-normal">
+<div class="flex-1">
 {% include nav.html %}
+{% include header.html %}
+<div class="max-w-lg mb-8 mx-auto rounded shadow-lg">
 
-<main class="container content--main">
-
-{{ content }}
+  <div class="card-container">
+  <main class="card">
+  <div class="card-title">
+  <h2>{{ page.title }}</h2>
+  </div>
+  <div class="p-6 rounded-b">
+  {{ content }}
+  </div>
+  </main>
+  </div>
 
 </main>
-
-{% include footer.html %}
-
-{% include scripts.html %}
-
 </div>
-
+</div>
+{% include footer.html %}
 </body>
 
 </html>

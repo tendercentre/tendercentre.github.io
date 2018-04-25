@@ -1,5 +1,5 @@
 ---
-title: Port Macquarie Tender Centre
+title: Port&nbsp;Macquarie Tender&nbsp;Centre
 timezone: Australia/Sydney
 collections:
   posts:
@@ -19,22 +19,19 @@ twitter:
   username: _tendercentre
 facebook:
   publisher: https://www.facebook.com/TenderCentre/
-markdown: kramdown
-markdown_ext: markdown,mkdown,mkdn,mkd,md
-highlighter: rouge
-permalink: pretty
-sass:
-  sass_dir: _sass
-  style: compressed
+
 exclude:
-- ".gitignore"
-- CNAME
 - Gemfile
 - Gemfile.lock
-- LICENSE
-- README.*
-- vendor
+- gulpfile.js
 - node_modules
+- package.json
+- package-lock.json
+- README.md
+- src
+- tailwind.js
+- yarn.lock
+
 plugins:
 - jekyll-email-protect
 - jekyll-sitemap

@@ -1,19 +1,10 @@
 ---
-title: '404'
-permalink: 404.html
+title: '404: Page Not Found'
+permalink: /404/
 layout: default
 ---
 
-<div class="card text-center">
-    <div class="card-header font-weight-bold">
-      Page Not Found
-    </div>
-    <div class="card-body">
-        <h1 class="card-title display-1 font-weight-bold">404</h1>
-        <p class="card-text">Sorry, looks like this page doesn’t exist (yet?).</p> 
-        
-        <p class="card-text">Please use the ‘back’ button in your browser or click the link below to go back to the home page, and if you continue to have issues, get in touch.</p>
-        <p> </p>
-        <a href="/" class="btn btn-dark">Take me home</a>
-    </div>
-</div>
+<p class="lead">Well that's weird...</p>
+<p class="lead">It looks like this page doesn’t exist (yet?)</p>
+<p>Please use the ‘back’ button in your browser or click the link below to go back to the home page, and if you continue to have issues, <a href="mailto:{{ 'hello@pmtc.com.au' | encode_email }}">get in touch.</a></p>
+<p class="mt-2"><a class="btn btn-dark" href="/">Take me home</a></p>

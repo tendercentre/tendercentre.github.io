@@ -1,5 +1,4 @@
-<form class="bg-grey-lightest border mb-0 mx-auto rounded shadow w-full" name="bid-form" action="/success/" method="POST"
-  netlify>
+<form class="bg-grey-lightest border mb-0 mx-auto rounded shadow w-full" name="bid-form" action="/success/" method="POST" netlify>
   <div class="md:flex">
 
     <!-- COLUMN 1 -->
@@ -11,8 +10,8 @@
         <!-- FIRST NAME -->
         <div class="form-column">
           <label class="form-label" for="first-name">Name</label>
-          <input class="form-input mb-4" id="first-name" autofocus autocomplete="given-name" type="text" placeholder="Johnny">
-          <input class="form-input" id="last-name" autocomplete="family-name" type="text" placeholder="Appleseed">
+          <input class="form-input mb-4" id="first-name" name="first-name" type="text" autofocus autocomplete="given-name" placeholder="Johnny">
+          <input class="form-input" id="last-name" name="last-name" type="text" autocomplete="family-name" placeholder="Appleseed">
         </div>
 
       </div>
@@ -22,9 +21,9 @@
 
         <!-- ADDRESS -->
         <div class="form-column">
-          <label class="form-label" for="address">Address</label>
-          <input class="form-input mb-4" autocomplete="street-address" type="text" placeholder="35 Merrigal Road">
-          <input class="form-input" autocomplete="address-line2" type="text" placeholder="Port Macquarie NSW 2444">
+          <label class="form-label" for="address-line1">Address</label>
+          <input class="form-input mb-4" id="address-line1" name="address-line1" type="text" autocomplete="address-line1" placeholder="35 Merrigal Road">
+          <input class="form-input" type="text" autocomplete="address-line2" name="address-line2" placeholder="Port Macquarie NSW 2444">
         </div>
 
       </div>
@@ -35,7 +34,7 @@
         <!-- PHONE NUMBER -->
         <div class="form-column">
           <label class="form-label" for="phone-number">Phone number</label>
-          <input class="form-input" id="phone-number" autocomplete="tel" type="text" placeholder="0400 000 000">
+          <input class="form-input" id="phone-number" name="phone-number" type="text" autocomplete="tel" placeholder="0400 000 000">
         </div>
 
       </div>
@@ -46,7 +45,7 @@
         <!-- EMAIL ADDRESS -->
         <div class="form-column">
           <label class="form-label" for="email-address">Email address</label>
-          <input class="form-input" id="email-address" autocomplete="email" type="text" placeholder="your.name@example.com">
+          <input class="form-input" id="email-address" name="email-address" type="text" autocomplete="email" placeholder="your.name@example.com">
         </div>
       </div>
 
@@ -61,23 +60,22 @@
         <!-- LOT NUMBER -->
         <div class="form-column">
           <label class="form-label" for="lot-number">Lot number</label>
-          <input class="form-input" id="lot-number" autocomplete="off" type="text" placeholder="10123">
+          <input class="form-input" id="lot-number" name="lot-number" type="text" autocomplete="off" placeholder="10123">
         </div>
 
         <!-- LOT DESCRIPTION -->
         <div class="form-column">
           <label class="form-label" for="lot-description">Lot description</label>
-          <input class="form-input" id="lot-description" autocomplete="off" type="text" placeholder="Acoustic guitar">
+          <input class="form-input" id="lot-description" name="lot-description" type="text" autocomplete="off" placeholder="Acoustic guitar">
         </div>
 
         <!-- BID PRICE -->
-        <div class="form-column">
+        <div class="form-column pb-1">
           <label class="form-label" for="bid-price">Bid price</label>
           <div class="bg-grey-lighter border flex items-center rounded">
             <div class="flex-auto px-4 rounded-l">$</div>
 
-            <input class="border-l border-r flex-auto appearance-none bg-white block px-4 py-3 shadow-inner text-grey-darker w-full"
-              id="bid-price" autocomplete="off" type="text" placeholder="100">
+            <input class="border-l border-r flex-auto appearance-none bg-white block px-4 py-3 shadow-inner text-grey-darker w-full" id="bid-price" type="text" autocomplete="off" name="bid-price" placeholder="100">
 
             <div class="flex-auto px-4 rounded-r">.00</div>
 
@@ -88,7 +86,7 @@
         <!-- MESSAGE AREA -->
         <div class="form-column">
           <label class="form-label" for="message">Message</label>
-          <textarea class="border h-48 p-3 rounded shadow-inner text-grey-darker w-full" id="message" placeholder="Optional — please leave blank unless you have a very good reason"></textarea>
+          <textarea class="border h-48 p-3 rounded shadow-inner text-grey-darker w-full" id="message" name="message" spellcheck placeholder="Optional — please leave blank unless you have a very good reason"></textarea>
         </div>
 
       </div>

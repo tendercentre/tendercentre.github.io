@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 assets
 node_modules
+Gemfile.lock
+package-lock.json
+yarn.lock

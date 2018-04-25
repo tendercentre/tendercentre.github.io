@@ -19,7 +19,6 @@ twitter:
   username: _tendercentre
 facebook:
   publisher: https://www.facebook.com/TenderCentre/
-
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -31,7 +30,6 @@ exclude:
 - src
 - tailwind.js
 - yarn.lock
-
 plugins:
 - jekyll-email-protect
 - jekyll-sitemap

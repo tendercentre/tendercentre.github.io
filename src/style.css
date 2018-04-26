@@ -58,7 +58,7 @@ body {
 h1,
 h2 {
   font-family: "Oswald";
-  @apply .uppercase .text-blue-dark;
+  @apply .text-blue-dark .uppercase;
 }
 
 hr {
@@ -78,7 +78,7 @@ p {
 }
 
 .btn {
-  @apply .border-b-8 .font-bold .my-0 .py-2 .px-4 .rounded .shadow .text-center;
+  @apply .border-b-8 .font-bold .my-0 .px-4 .py-2 .rounded .shadow .text-center;
 }
 .btn:active {
   @apply .border-0 .mt-2;
@@ -93,7 +93,7 @@ p {
 }
 
 .card {
-  @apply .bg-white .border .border-b-8 .flex .flex-col .mb-6 .mx-3 .rounded .shadow .w-full;
+  @apply .bg-white .border .border-b-8 .flex .flex-col .mb-6 .rounded .shadow .w-full;
 } @screen md {
   .card {
     @apply .m-0;
@@ -101,7 +101,7 @@ p {
 }
 
 .card-container {
-  @apply .flex .flex-wrap .justify-center;
+  @apply .flex .flex-wrap .justify-center .w-full;
 } @screen md {
   .card-container {
     @apply .flex-no-wrap .mb-6;
@@ -121,7 +121,7 @@ p {
 }
 
 .embed {
-  @apply .border overflow-hidden .relative .rounded .w-full;
+  @apply .border .overflow-hidden .relative .rounded .w-full;
   padding-bottom: 56.25%;
   height: 0;
 }
@@ -135,7 +135,7 @@ p {
 }
 
 .form-column {
-  @apply .flex .flex-col .pb-4 w-full;
+  @apply .flex .flex-col .pb-4 .w-full;
 }
 
 .form-input {
@@ -151,14 +151,21 @@ p {
 }
 
 .header-lead {
-  @apply .text-blue-lightest .italic;
+  @apply .italic .text-blue-lightest .text-base;
+} @screen md {
+  .header-lead {
+    @apply .text-xl;
+  }
 }
 
 .header-title {
-  @apply .text-4xl .text-yellow-lighter .uppercase .no-underline;
-}
-.header-title:hover {
+  @apply .leading-tight .no-underline .text-2xl .text-yellow-lighter .uppercase;
+} .header-title:hover {
   @apply .text-yellow-lightest;
+} @screen md {
+  .header-title {
+    @apply .text-4xl;
+  }
 }
 
 .invalid-feedback {
@@ -186,9 +193,13 @@ p {
 }
 
 .nav-item {
-  @apply .block .mt-2 .py-2 .px-4 .text-center .text-blue-lightest;
+  @apply .block .mt-2 .py-0 .px-2 .text-center .text-blue-lightest;
 } .nav-item:hover {
   @apply .bg-blue-darker .border-t-8 .border-yellow-lighter .mt-0 .text-white;
+} @screen md {
+  .nav-item {
+    @apply .px-4 .py-2;
+  }
 }
 
 

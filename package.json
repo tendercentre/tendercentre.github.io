@@ -13,6 +13,10 @@
     "postcss-import": "^11.1.0",
     "tailwindcss": "^0.5.2"
   },
+  "scripts": {
+    "build": "gulp css",
+    "dev": "gulp"
+  },
   "repository": "https://github.com/tendercentre/pmtc-tailwind",
   "author": "Luke Bennett <luke.bennett88@gmail.com>",
   "license": "MIT"

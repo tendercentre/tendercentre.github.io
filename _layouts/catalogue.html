@@ -4,16 +4,9 @@
 <!DOCTYPE html />
 <html class="h-full no-js" lang="{{ site.lang | default: " en-AU " }}" dir="ltr">
 {% include head.html %}
-<body class="antialiased flex flex-col h-full leading-normal">
-<div class="flex-1">
+<body class="antialiased leading-normal mx-auto">
 {% include nav.html %}
 {% include header.html %}
-<div class="bg-grey-lightest border-b container max-w-lg mx-auto py-2 rounded-t text-center">
-  <h2>{{ page.title }}</h2>
-</div>
-<div class="border border-b-8 max-w-lg mb-8 mx-auto rounded-b w-full">
-  {{ content }}
-</div>
-{% include footer.html %}
+{{ content }}
 </body>
 </html>

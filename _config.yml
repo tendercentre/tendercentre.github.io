@@ -19,6 +19,8 @@ twitter:
   username: _tendercentre
 facebook:
   publisher: https://www.facebook.com/TenderCentre/
+inclue:
+- _redirects
 exclude:
 - Gemfile
 - Gemfile.lock

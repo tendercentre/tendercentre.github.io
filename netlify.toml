@@ -1,0 +1,7 @@
+[build]
+  command = "source prod.sh"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.46"
+  YARN_VERSION = "1.9.2"

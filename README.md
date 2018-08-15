@@ -1,4 +1,4 @@
-# Port Macquarie Tender
+# Port Macquarie Tender Centre
 
 This is the website for Port Macquarie Tender Centre
 

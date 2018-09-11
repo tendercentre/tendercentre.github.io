@@ -1,9 +1,17 @@
 {
-  "dependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo --gc"
+  },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.0.1",
     "autoprefixer": "^9.0.1",
-    "eslint": "^5.2.0",
-    "html-minifier": "^3.5.19",
-    "postcss-cli": "^6.0.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint": "^4.19.1",
+    "postcss-cli": "^6.0.0",
+    "postcss-import": "^11.0.0",
+    "postcss": "^7.0.1",
+    "tailwindcss": "^0.6.5"
   }
 }

@@ -1,21 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Params.language }}">
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-AU{{ end }}">
 
-{{ partial "head.html" . }}
+{{ partial "head" . }}
 
-<body>
-
-{{ partial "header.html" . }}
-
-<main class="main" id="main">
-<div class="main__wrapper">
-
-{{ block "main" .}}{{ end }}
-
-</div>
-</main>
-
-{{ partial "footer.html" . }}
-
+<body class="antialiased font-sans flex flex-col h-full leading-normal">
+  {{ block "main" . }}{{ end }}
 </body>
+
 </html>

@@ -1,20 +1,15 @@
-baseURL = "/"
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+baseurl       = "/"
+disableKinds  = ["section", "RSS", "sitemap", "robotsTXT"]
 googleAnalytics = "UA-111452383-1"
 languageCode = "en-AU"
-title = "Port Macquarie Tender Centre"
+title         = "Port Macquarie Tender Centre"
+uglyurls      = false
 
 [params]
-  description = "You deliver the goods, we deilver the customer!"
-  facebook = ""
-  language = "en-AU"
-  name = ""
-  twitterCreator = ""
+  siteDescription = "You deliver the goods, we deliver the customer"
+  author = ""
   twitterSite = ""
-  url = ""
-
-[frontmatter]
-  date  = [":filename", ":default"]
+  twitterCreator = ""
 
 [menu]
   [[menu.main]]
@@ -25,22 +20,15 @@ title = "Port Macquarie Tender Centre"
     name = "Sellers"
     url  = "/sellers/"
     weight = 2
-    [[menu.main]]
+  [[menu.main]]
     name = "FAQ"
     url  = "/faq/"
     weight = 3
-    [[menu.main]]
+  [[menu.main]]
     name = "Catalogue"
     url  = "/catalogue.pdf"
     weight = 4
-    [[menu.main]]
+  [[menu.main]]
     name = "Bid"
     url  = "/bid/"
     weight = 5
-
-[permalinks]
-  post = "/:slug/"
-
-[outputs]
-  home = ["HTML"]
-  section = ["HTML"]

@@ -1,7 +1,0 @@
-# Redirects from what the browser requests to what we serve
-/home             /
-/catalogue        /catalogue.pdf
-/buy              /buyers
-/buyer            /buyers
-/sell             /sellers
-/seller           /sellers

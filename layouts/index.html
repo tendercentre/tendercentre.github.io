@@ -1,260 +1,160 @@
 {{ define "main" }}
-  <div class="flex-1">
-  <nav class="flex overflow-x-auto w-full" id="top">
-    <ul class="flex flex-1 justify-center mx-auto max-w-lg list-reset">
-      <li class="flex-1">
-        <a class="nav-item" href="/buyers/">Buyers</a>
-      </li>
-      <li class="flex-1">
-        <a class="nav-item" href="/sellers/">Sellers</a>
-      </li>
-      <li class="flex-1">
-        <a class="nav-item" href="/faq/">FAQ</a>
-      </li>
-      <li class="flex-1">
-        <a class="nav-item" href="/catalogue.pdf" target="_blank">Catalogue</a>
-      </li>
-      <li class="flex-1">
-        <a class="nav-item" href="/bid/">Bid</a>
-      </li>
-      </li>
-    </ul>
-  </nav>
+<div class="max-w-lg mb-8 mx-auto rounded shadow-lg">
+  <main class="bg-grey-lighter p-6 rounded">
+    <div class="card-container">
+  <div class="card jumbotron">
+    <div>
+      <p>We are the largest second-hand and consignment store on the Mid&nbsp;North&nbsp;Coast.</p>
+      <p>What will you find at the Tender Centre?</p>
+    </div>
+  </div>
+</div>
 
-  <header class="flex-no-wrap py-2 md:py-8 text-center w-full">
-    <h1><a class="header-title" href="/">Port&nbsp;Macquarie Tender&nbsp;Centre</a></h1>
-    <h4 class="header-lead">You deliver the goods, we deilver the customer!</h4>
-  </header>
+<div class="card-container">
 
-  <div class="max-w-lg mb-8 mx-auto rounded shadow-lg">
-    <main class="bg-grey-lighter p-6 rounded">
-      <div class="card-container">
-    <div class="card jumbotron">
-      <div>
-        <p>We are the largest second-hand and consignment store on the Mid&nbsp;North&nbsp;Coast.</p>
-        <p>What will you find at the Tender Centre?</p>
+  <!-- FIRST CARD -->
+  <div class="card justify-between md:mr-6 md:w-1/3">
+    <div>
+      <div class="card-title">
+        <h2><a href="/buyers/">Buying?</a></h2>
+    </div>
+      <div class="p-3 md:p-6">
+        <p>All the information you need about how buying from the Tender Centre works.</p>
       </div>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-dark w-full" href="/buyers/">Read more</a></div>
+  </div>
+
+  <!-- SECOND CARD -->
+  <div class="card justify-between md:mr-6 md:w-1/3">
+    <div>
+      <div class="card-title">
+        <h2><a href="/sellers/">Selling?</a></h2>
+      </div>
+      <div class="p-3 md:p-6">
+        <p>When can you take goods in to sell? What are the commission rates?</p>
+        <p>Find out here.</p>
+      </div>
+    </div>
+    <div class="card-footer">
+      <a class="btn btn-dark w-full" href="/sellers/">Read more</a>
     </div>
   </div>
 
-  <div class="card-container">
-
-    <!-- FIRST CARD -->
-    <div class="card justify-between md:mr-6 md:w-1/3">
-      <div>
-        <div class="card-title">
-          <h2><a href="/buyers/">Buying?</a></h2>
+  <!-- THIRD CARD -->
+  <div class="card justify-between md:w-1/3">
+    <div>
+      <div class="card-title">
+        <h2><a href="/faq/">FAQ</a></h2>
       </div>
-        <div class="p-3 md:p-6">
-          <p>All the information you need about how buying from the Tender Centre works.</p>
-        </div>
-      </div>
-      <div class="card-footer">
-        <a class="btn btn-dark w-full" href="/buyers/">Read more</a></div>
-    </div>
-
-    <!-- SECOND CARD -->
-    <div class="card justify-between md:mr-6 md:w-1/3">
-      <div>
-        <div class="card-title">
-          <h2><a href="/sellers/">Selling?</a></h2>
-        </div>
-        <div class="p-3 md:p-6">
-          <p>When can you take goods in to sell? What are the commission rates?</p>
-          <p>Find out here.</p>
-        </div>
-      </div>
-      <div class="card-footer">
-        <a class="btn btn-dark w-full" href="/sellers/">Read more</a>
+      <div class="p-3 md:p-6">
+        <p>You got questions?</p>
+        <p>We got answers!</p>
       </div>
     </div>
-
-    <!-- THIRD CARD -->
-    <div class="card justify-between md:w-1/3">
-      <div>
-        <div class="card-title">
-          <h2><a href="/faq/">FAQ</a></h2>
-        </div>
-        <div class="p-3 md:p-6">
-          <p>You got questions?</p>
-          <p>We got answers!</p>
-        </div>
-      </div>
-      <div class="card-footer">
-        <a class="btn btn-dark w-full" href="/faq/">Read more</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="card-container">
-    <div class="card p-3">
-      <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-      <iframe class="border lightwidget-widget rounded" src="//lightwidget.com/widgets/46242f3ade76509094ec480c31f7187d.html" scrolling="no" allowtransparency="true" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+    <div class="card-footer">
+      <a class="btn btn-dark w-full" href="/faq/">Read more</a>
     </div>
   </div>
 
-  <div class="card-container">
-    <div class="card p-6 md:w-1/2 md:mr-6">
-      <h2 class="pb-3">Hours</h2>
-      <div class="bg-grey-lightest border mb-6 p-6 rounded shadow">
-    <h3>General</h3>
-    <h4>Monday – Friday</h4>
-      <p>9:00am – 5:00pm</p>
-      <h4>Weekends</h4>
-      <p>9:00am – 2:00pm</p>
-  </div>
+</div>
 
-  <div class="bg-grey-lightest border p-6 rounded shadow">
-    <h3>Receiving</h3>
-    <h4>Monday – Friday</h4>
-    <p>9:00am – 4:00pm</p>
+<div class="card-container">
+  <div class="card p-3">
+    <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+    <iframe class="border lightwidget-widget rounded" src="//lightwidget.com/widgets/46242f3ade76509094ec480c31f7187d.html" scrolling="no" allowtransparency="true" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="card p-6 md:w-1/2 md:mr-6">
+    <h2 class="pb-3">Hours</h2>
+    <div class="bg-grey-lightest border mb-6 p-6 rounded shadow">
+  <h3>General</h3>
+  <h4>Monday – Friday</h4>
+    <p>9:00am – 5:00pm</p>
     <h4>Weekends</h4>
-    <p>9:00am – 12:00pm</p>
-    <p>
-      <strong>
-        <em>Receival of stock on weekends is by appointment only</em>
-      </strong>
-    </p>
-  </div>
+    <p>9:00am – 2:00pm</p>
+</div>
 
-    </div>
-
-
-    <div class="card p-6 md:w-1/2">
-      <h2 class="pb-3">Contact</h2>
-      <div class="bg-grey-lightest border p-6 rounded shadow">
-
-        <h3>Phone:</h3>
-        <p><a href="tel:0265813122">(02)&nbsp;6581&nbsp;3122</a>
+<div class="bg-grey-lightest border p-6 rounded shadow">
+  <h3>Receiving</h3>
+  <h4>Monday – Friday</h4>
+  <p>9:00am – 4:00pm</p>
+  <h4>Weekends</h4>
+  <p>9:00am – 12:00pm</p>
+  <p>
+    <strong>
+      <em>Receival of stock on weekends is by appointment only</em>
+    </strong>
   </p>
+</div>
 
-        <h3>Email:</h3>
-        <p>
-          <a href="mailto:%68%65%6C%6C%6F@%70%6D%74%63.%63%6F%6D.%61%75">Click here</a>
-        </p>
+  </div>
 
-        <h3>Address:</h3>
-        <p><a href="https://www.google.com/maps/place/Port+Macquarie+Tender+Centre/@-31.456334,152.882405,17z/data=!4m5!3m4!1s0x0:0x9f3b717d29c9fdd6!8m2!3d-31.456334!4d152.882405?hl=en-AU">14-17/35 Merrigal Road, Port Macquarie, NSW, 2444</a>
-  </p>
 
-      </div>
-      <h2 class="pb-3 pt-6">Social</h2>
-  <div class="bg-grey-lightest border flex justify-around p-8 rounded shadow">
+  <div class="card p-6 md:w-1/2">
+    <h2 class="pb-3">Contact</h2>
+    <div class="bg-grey-lightest border p-6 rounded shadow">
 
-        <a href="https://facebook.com/tendercentre">
-          <svg class="social" role="img" aria-label="Facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%"></rect>
-            <path fill="#fff" d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"></path>
-          </svg>
-        </a>
+      <h3>Phone:</h3>
+      <p><a href="tel:0265813122">(02)&nbsp;6581&nbsp;3122</a>
+</p>
 
-        <a href="https://twitter.com/_tendercentre">
-          <svg class="social" role="img" aria-label="Twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%"></rect>
-            <path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"></path>
-          </svg>
-        </a>
+      <h3>Email:</h3>
+      <p>
+        <a href="mailto:%68%65%6C%6C%6F@%70%6D%74%63.%63%6F%6D.%61%75">Click here</a>
+      </p>
 
-        <a href="https://instagram.com/tendercentre">
-          <svg class="social" role="img" aria-label="Instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%"></rect>
-            <g fill="none" stroke="#fff" stroke-width="29">
-              <rect height="296" rx="78" width="296" x="108" y="108"></rect>
-              <circle cx="256" cy="256" r="69"></circle>
-            </g>
-            <circle cx="343" cy="169" fill="#fff" r="19"></circle>
-          </svg>
-        </a>
+      <h3>Address:</h3>
+      <p><a href="https://www.google.com/maps/place/Port+Macquarie+Tender+Centre/@-31.456334,152.882405,17z/data=!4m5!3m4!1s0x0:0x9f3b717d29c9fdd6!8m2!3d-31.456334!4d152.882405?hl=en-AU">14-17/35 Merrigal Road, Port Macquarie, NSW, 2444</a>
+</p>
 
-      </div>
     </div>
-  </div>
+    <h2 class="pb-3 pt-6">Social</h2>
+<div class="bg-grey-lightest border flex justify-around p-8 rounded shadow">
 
-  <div class="card-container mb-0">
-    <div class="card p-6">
-      <div class="embed">
-        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9SgjqW3_nWsR1v3JKX1xO58&key=AIzaSyCw4TwIwM5-kLnxeL2r5vmBowYyoQXOhtw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-
-
-    </main>
-  </div>
-
-  </div>
-  <footer class="bg-grey-lightest border-b-8 pin-b mt-8 py-8 rounded-b text-center text-grey-darker">
-
-    <!-- BACK TO TOP BUTTON -->
-    <p class="mb-4">
-      <a class="items-center justify-center mt-8" href="#top">
-        <span class="pr-2">Back to top</span>
-        <svg class="align-middle fill-current text-blue-dark h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-          <path d="M0 10a10 10 0 1 1 20 0 10 10 0 0 1-20 0zm10 8a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm.7-10.54L14.25 11l-1.41 1.41L10 9.6l-2.83 2.8L5.76 11 10 6.76l.7.7z"></path>
+      <a href="https://facebook.com/tendercentre">
+        <svg class="social" role="img" aria-label="Facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <rect width="512" height="512" rx="15%"></rect>
+          <path fill="#fff" d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"></path>
         </svg>
       </a>
-    </p>
 
-    <!-- SOCIAL ICONS -->
-    <ul class="flex justify-center list-reset mb-4">
+      <a href="https://twitter.com/_tendercentre">
+        <svg class="social" role="img" aria-label="Twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <rect width="512" height="512" rx="15%"></rect>
+          <path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"></path>
+        </svg>
+      </a>
 
-      <!-- EMAIL -->
-      <li class="items-center justify-center px-2">
-        <a class="flex flex-col items-center" href="mailto:%68%65%6C%6C%6F@%70%6D%74%63.%63%6F%6D.%61%75" target="_blank">
-          <svg class="social" xmlns="http://www.w3.org/2000/svg" aria-label="Email" role="img" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%" fill="teal" />
-            <rect width="356" height="256" x="78" y="128" fill="#fff" rx="8%" />
-            <path fill="none" stroke="teal" stroke-width="20" d="M434 128L269 292c-7 8-19 8-26 0L78 128m0 256l129-128m227 128L305 256"
-            />
-          </svg>
-          <span>Email</span>
-        </a>
-      </li>
+      <a href="https://instagram.com/tendercentre">
+        <svg class="social" role="img" aria-label="Instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <rect width="512" height="512" rx="15%"></rect>
+          <g fill="none" stroke="#fff" stroke-width="29">
+            <rect height="296" rx="78" width="296" x="108" y="108"></rect>
+            <circle cx="256" cy="256" r="69"></circle>
+          </g>
+          <circle cx="343" cy="169" fill="#fff" r="19"></circle>
+        </svg>
+      </a>
 
-      <!-- FACEBOOK -->
-      <li class="items-center justify-center px-2">
-        <a class="flex flex-col items-center" href="https://facebook.com/tendercentre" target="_blank">
-          <svg class="social" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook" role="img" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%" fill="#3b5998" />
-            <path fill="#fff" d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"
-            />
-          </svg>
-          <span>Facebook</span>
-        </a>
-      </li>
+    </div>
+  </div>
+</div>
 
-      <!-- TWITTER -->
-      <li class="items-center justify-center px-2">
-        <a class="flex flex-col items-center" href="https://twitter.com/_tendercentre" target="_blank">
-          <svg class="social" xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%" fill="#1da1f3" />
-            <path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"
-            />
-          </svg>
-          <span>Twitter</span>
-        </a>
-      </li>
+<div class="card-container mb-0">
+  <div class="card p-6">
+    <div class="embed">
+      <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9SgjqW3_nWsR1v3JKX1xO58&key=AIzaSyCw4TwIwM5-kLnxeL2r5vmBowYyoQXOhtw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
 
-      <!-- INSTAGRAM -->
-      <li class="items-center justify-center px-2">
-        <a class="flex flex-col items-center" href="https://instagram.com/tendercentre" target="_blank">
-          <svg class="social" xmlns="http://www.w3.org/2000/svg" aria-label="Instagram" role="img" viewBox="0 0 512 512">
-            <rect width="512" height="512" rx="15%" fill="#d43377" />
-            <g fill="none" stroke="#fff" stroke-width="29">
-              <rect height="296" rx="78" width="296" x="108" y="108" />
-              <circle cx="256" cy="256" r="69" />
-            </g>
-            <circle cx="343" cy="169" fill="#fff" r="19" />
-          </svg>
-          <span>Instagram</span>
-        </a>
-      </li>
 
-    </ul>
+  </main>
+</div>
 
-    <!-- COPYRIGHT -->
-    <p>&copy; Port&nbsp;Macquarie Tender&nbsp;Centre 2018</p>
-
-  </footer>
+</div>
 {{ end }}

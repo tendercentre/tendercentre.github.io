@@ -37,15 +37,9 @@
   <meta name="theme-color" content="#1c2832">
 
   {{ "<!-- Styles -->" | safeHTML }}
-  {{- if .Site.IsServer -}}
+
   {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") | fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" data>
-  {{- else -}}
-  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js")  | minify | fingerprint }}
-  <style>
-  {{ $style.Content | safeCSS }}
-  </style>
-  {{ end }}
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111452383-1"></script>

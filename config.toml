@@ -1,6 +1,5 @@
 baseurl       = "/"
 disableKinds  = ["section", "RSS", "sitemap", "robotsTXT"]
-googleAnalytics = "UA-111452383-1"
 languageCode = "en-AU"
 title         = "Port Macquarie Tender Centre"
 uglyurls      = false

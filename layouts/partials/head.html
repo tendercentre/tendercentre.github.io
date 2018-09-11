@@ -1,0 +1,49 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  {{ .Hugo.Generator }}
+
+  <title>{{ block "title" . }}{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+  <meta id="description" name="description" content="{{ block "description" . }}{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}{{ end }}">
+
+  <link rel="canonical" href="{{ .URL | absURL }}">
+
+  {{ "<!-- SEO keywords -->" | safeHTML }}
+  <meta name="keywords" content="Port Macquarie Tender Centre, Tender Centre, Port Macquarie, Second Hand, Second Hand Port Macquarie, consignment, auction, shop, buy, sell, used, vintage, Mid North Coast">
+
+  {{ "<!-- Open graph data -->" | safeHTML }}
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ if eq .IsHome true }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta property="og:url" content="{{ .URL | absURL }}">
+  <meta property="og:type" content="{{ if eq .Type "page" }}website{{ else }}article{{ end }}">
+  <meta property="og:description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.siteDescription }}{{ end }}">
+  <meta property="og:image" content="{{ if eq .Type "page" }}{{ .Site.BaseURL }}img/hero.png{{ else }}{{ .Site.BaseURL }}img/{{ .Params.photo }}{{ end }}">
+
+  {{ "<!-- Twitter Card -->" | safeHTML }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ .Site.Params.twitterSite }}">
+  <meta name="twitter:creator" content="{{ .Site.Params.twitterCreator }}">
+
+  {{ "<!-- Favicons -->" | safeHTML }}
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/img/site.webmanifest">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#1c2832">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-TileColor" content="#1c2832">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#1c2832">
+
+  {{ "<!-- Styles -->" | safeHTML }}
+  {{- if .Site.IsServer -}}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" data>
+  {{- else -}}
+  {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js")  | minify | fingerprint }}
+  <style>
+  {{ $style.Content | safeCSS }}
+  </style>
+  {{ end }}
+</head>

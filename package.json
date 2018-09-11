@@ -1,26 +1,17 @@
 {
-  "name": "tendercentre.github.io",
-  "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {
-    "browser-sync": "^2.23.7",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.3",
-    "gulp-postcss": "^7.0.1",
-    "gulp-purgecss": "^0.21.0",
-    "gulp-util": "^3.0.8",
-    "postcss-import": "^11.1.0",
-    "tailwindcss": "^0.5.3"
-  },
   "scripts": {
-    "build": "gulp css",
-    "dev": "gulp"
+    "start": "hugo --gc"
   },
-  "repository": "https://github.com/tendercentre/pmtc-tailwind",
-  "author": "Luke Bennett <luke.bennett88@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "yarn": "^1.6.0"
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.0.1",
+    "autoprefixer": "^9.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint": "^4.19.1",
+    "postcss-cli": "^6.0.0",
+    "postcss-import": "^11.0.0",
+    "postcss": "^7.0.1",
+    "tailwindcss": "^0.6.5"
   }
 }

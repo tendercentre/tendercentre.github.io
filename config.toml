@@ -1,0 +1,34 @@
+baseurl       = "/"
+disableKinds  = ["section", "RSS", "sitemap", "robotsTXT"]
+googleAnalytics = "UA-111452383-1"
+languageCode = "en-AU"
+title         = "Port Macquarie Tender Centre"
+uglyurls      = false
+
+[params]
+  siteDescription = "You deliver the goods, we deliver the customer"
+  author = ""
+  twitterSite = ""
+  twitterCreator = ""
+
+[menu]
+  [[menu.main]]
+    name = "Buyers"
+    url  = "/buyers/"
+    weight = 1
+  [[menu.main]]
+    name = "Sellers"
+    url  = "/sellers/"
+    weight = 2
+  [[menu.main]]
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 3
+  [[menu.main]]
+    name = "Catalogue"
+    url  = "/catalogue.pdf"
+    weight = 4
+  [[menu.main]]
+    name = "Bid"
+    url  = "/bid/"
+    weight = 5

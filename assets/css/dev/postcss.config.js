@@ -1,17 +1,15 @@
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-z0-9-:\/]+/g);
-  }
-}
+const postcssImport = require('postcss-import');
+const tailwind = require('tailwindcss');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
   plugins: [
-    require("postcss-import")({
-      path: ["assets/css"]
+    postcssImport({
+      path: ['assets/css'],
     }),
-    require("tailwindcss")("./assets/css/tailwind.js"),
-    require("autoprefixer")({
-      browsers: [">1%"]
-    })
-  ]
+    tailwind('./assets/css/tailwind.js'),
+    autoprefixer({
+      browsers: ['>1%'],
+    }),
+  ],
 };

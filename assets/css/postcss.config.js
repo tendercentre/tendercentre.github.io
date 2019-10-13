@@ -1,3 +1,8 @@
+const postcssImport = require('postcss-import');
+const tailwind = require('tailwindcss');
+const purgecss = require('@fullhuman/postcss-purgecss');
+const autoprefixer = require('autoprefixer');
+
 class TailwindExtractor {
   static extract(content) {
     return content.match(/[A-z0-9-:\/]+/g);
@@ -6,24 +11,24 @@ class TailwindExtractor {
 
 module.exports = {
   plugins: [
-    require("postcss-import")({
-      path: ["assets/css"]
+    postcssImport({
+      path: ['assets/css'],
     }),
-    require("tailwindcss")("./assets/css/tailwind.js"),
-    require("@fullhuman/postcss-purgecss")({
-      content: ["layouts/**/*.html"],
+    tailwind('./assets/css/tailwind.js'),
+    purgecss({
+      content: ['layouts/**/*.html'],
       extractors: [
         {
           extractor: TailwindExtractor,
-          extensions: ["html"]
-        }
+          extensions: ['html'],
+        },
       ],
       fontFace: true,
-      whitelist: ["class1", "class2"]
+      whitelist: ['class1', 'class2'],
     }),
-    require("autoprefixer")({
+    autoprefixer({
       grid: true,
-      browsers: [">1%"]
-    })
-  ]
+      browsers: ['>1%'],
+    }),
+  ],
 };

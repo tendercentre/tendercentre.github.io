@@ -1,28 +1,42 @@
 {
-  "main": "index.js",
-  "scripts": {
-    "start": "hugo --gc"
-  },
+  "name": "pmtc.com.au",
+  "version": "2.0.0",
+  "license": "MIT",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^1.3.0",
-    "autoprefixer": "^9.6.1",
-    "postcss-import": "^12.0.1",
-    "tailwindcss": "^0.7.4"
+    "@tailwindcss/aspect-ratio": "^0.1.4",
+    "@tailwindcss/forms": "^0.1.4",
+    "@tailwindcss/typography": "^0.2.0",
+    "next": "^10.0.1",
+    "next-seo": "^4.17.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
+    "react-intersection-observer": "^8.30.3",
+    "tailwindcss": "^1.9.6",
+    "typeface-oswald": "^1.1.13",
+    "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.14.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-wesbos": "0.0.19",
-    "eslint-plugin-html": "^5.0.3",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.3.0",
-    "postcss": "^7.0.17",
-    "postcss-cli": "^6.1.3",
-    "prettier": "^1.16.4"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-lukebennett": "0.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   }
 }

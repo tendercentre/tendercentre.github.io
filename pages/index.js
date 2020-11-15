@@ -77,7 +77,10 @@ function Cards() {
             <div dangerouslySetInnerHTML={{ __html: card.copy }} />
             <div className="pt-12 mt-auto">
               <Link href={card.slug}>
-                <a className="inline-block w-full px-4 py-2 font-medium text-center text-white bg-blue-800 border-b-8 border-blue-900 rounded">
+                <a
+                  aria-label={`Read more about ${card.heading}`}
+                  className="inline-block w-full px-4 py-2 font-medium text-center text-white bg-blue-800 border-b-8 border-blue-900 rounded"
+                >
                   Read more
                 </a>
               </Link>

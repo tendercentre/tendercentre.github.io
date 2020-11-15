@@ -1,3 +1,4 @@
+import { NextSeo } from 'next-seo';
 import Link from 'next/link';
 import { useInView } from 'react-intersection-observer';
 
@@ -5,12 +6,15 @@ import { config } from '../data';
 
 function IndexPage() {
   return (
-    <div className="grid w-full max-w-5xl gap-6 px-4 py-6 mx-auto text-gray-800 bg-gray-200 rounded-md shadow-md sm:py-8 sm:px-6">
-      <Hero />
-      <Cards />
-      <Info />
-      <Map />
-    </div>
+    <>
+      <NextSeo title="Home" />
+      <div className="grid w-full max-w-5xl gap-6 px-4 py-6 mx-auto text-gray-800 bg-gray-200 rounded-md shadow-md sm:py-8 sm:px-6">
+        <Hero />
+        <Cards />
+        <Info />
+        <Map />
+      </div>
+    </>
   );
 }
 

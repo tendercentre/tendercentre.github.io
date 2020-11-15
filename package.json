@@ -12,6 +12,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
+    "react-intersection-observer": "^8.30.3",
     "tailwindcss": "^1.9.6",
     "typeface-oswald": "^1.1.13",
     "typeface-roboto": "^1.1.13"

@@ -172,16 +172,14 @@ function Contact() {
         Social
       </h2>
       <div className="px-4 py-6 bg-gray-200 border rounded shadow">
-        <dl className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4">
           {config.socialLinks.map((socialLink) => (
             <a key={socialLink.url} href={socialLink.url}>
-              <dt className="sr-only">{socialLink.label}</dt>
-              <dd>
-                <socialLink.icon className="w-8 text-blue-800" />
-              </dd>
+              <span className="sr-only">{socialLink.label}</span>
+              <socialLink.icon className="w-8 text-blue-800" />
             </a>
           ))}
-        </dl>
+        </div>
       </div>
     </article>
   );

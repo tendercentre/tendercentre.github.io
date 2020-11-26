@@ -17,9 +17,9 @@ function ClearanceSolutionsPage() {
           </p>
           <p>
             We aim to offer a customised service that can be adapted entirely to
-            your needs, circumstances and priorities. We will collect, value and
-            sell your items with minimal effort on your part, giving you one
-            less thing to worry about during an already stressful time.
+            your needs, circumstances and priorities. We will value and sell
+            your items with minimal effort on your part, giving you one less
+            thing to worry about during an already stressful time.
           </p>
           <p>
             If you would like to employ our services, please contact us on{' '}
